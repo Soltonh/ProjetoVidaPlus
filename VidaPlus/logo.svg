@@ -1,0 +1,31 @@
+<!-- Exemplo de um logo de coração ao lado de “VidaPlus” em SVG -->
+<svg width="250" height="80" viewBox="0 0 250 80" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Grupo do ícone de coração -->
+  <g transform="translate(10, 10)">
+    <!-- Exemplo simplificado de coração -->
+    <path 
+      d="M25,10 
+         A10,10 0 0,1 35,10 
+         C40,10 45,15 45,20
+         C45,30 25,40 25,50 
+         C25,40 5,30 5,20
+         C5,15 10,10 15,10 
+         A10,10 0 0,1 25,10
+         Z"
+      fill="#D82A2A"
+    />
+  </g>
+
+  <!-- Texto VidaPlus -->
+  <text
+    x="60"
+    y="35"
+    font-family="Arial, sans-serif"
+    font-size="24"
+    fill="#2E8B57"
+    font-weight="bold"
+  >
+    VidaPlus
+  </text>
+</svg>

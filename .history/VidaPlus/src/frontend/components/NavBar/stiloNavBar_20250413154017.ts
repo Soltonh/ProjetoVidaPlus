@@ -1,0 +1,19 @@
+import styled from "styled-Components";
+
+export const Img = styled.img`
+    width: 5%;
+    background-color: black
+`
+
+export const Div = styled.div`
+    width: 100vw;
+    height: 5vh;
+    display:grid;
+    grid-template-columns: repeat(2,1fr)
+`
+
+export const H1 = styled.h1`
+    color:rgb(0, 168, 28);
+    margin-right: auto;  
+    font-size: 20px;
+`
