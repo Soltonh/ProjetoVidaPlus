@@ -15,7 +15,7 @@ const NavBar: React.FC = () => {
         <>
             <Div>
                 <Img src={Menu} onClick={toggleMenu}></Img>
-                <H1>Sistema VidaPlus</H1>
+                <H1>Sistema de Gestão Hospitalar e de Serviços de Saúde</H1>
                 <Div2  menuAberto={menuAberto}>
                     <UlPrincipal>
                         <LiPrincipal>Consultas

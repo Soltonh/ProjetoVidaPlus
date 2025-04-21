@@ -1,9 +1,11 @@
-import { useState } from 'react'
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import CadastroUser from './frontend/pages/Login/login'
 import "./stilo"
 import { GlobalStyle } from './stilo'
-import TelaIncial from './frontend/pages/TelaInicial/TelaInicial'
+import TelaIncialPaciente from './frontend/pages/TelaInicialPaciente/TelaInicialPaciente'
+import TelaIncialAdm from './frontend/pages/TelaInicialAdm/TelaInicialAdm'
+import TelaIncialProfissional from './frontend/pages/TelaInicialProfissional/TelaInicialProfissional'
+import TelaConsultaPaciente from './frontend/pages/Consultas/consultasPaciente'
 
 function App() {
   return (
@@ -12,7 +14,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<CadastroUser/>} />
-          <Route path="/Inicio" element={<TelaIncial/>} />
+          <Route path="/paciente" element={<TelaIncialPaciente/>} />
+          <Route path="/profissional" element={<TelaIncialProfissional/>} />
+          <Route path="/Adm" element={<TelaIncialAdm/>} />
+          <Route path="/consultas" element={<TelaConsultaPaciente/>} />
         </Routes>
       </BrowserRouter>
     </>

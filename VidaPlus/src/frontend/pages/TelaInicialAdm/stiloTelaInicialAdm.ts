@@ -14,6 +14,12 @@ export const DivEsq = styled.div`
     margin-left: auto;
     margin-bottom: auto;
     margin-right: auto;
+
+`
+export const DivBlocos = styled.div`
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 20px;
 `
 
 export const DivDir = styled.div`

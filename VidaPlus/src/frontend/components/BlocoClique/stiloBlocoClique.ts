@@ -1,12 +1,14 @@
 import styled from "styled-Components";
+import { Link } from "react-router-dom";
 
-export const Div = styled.div`
-    width: 15%;
-    height: 15%;
+export const Div = styled(Link)`
     border: solid 4px #219D9C;
     border-radius: 10px;
     margin-top: 15px;
     padding: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
 `;
 
 export const P = styled.p`
@@ -14,4 +16,10 @@ export const P = styled.p`
     text-align:center;
     font-weight: bold;
     font-size: 15px;
+`
+
+export const IMG = styled.img`
+    width: 90px;
+    padding: 10px;
+    margin: auto;
 `

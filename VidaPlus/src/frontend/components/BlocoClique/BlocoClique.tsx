@@ -1,15 +1,17 @@
 import React from "react";
-import { Div, P } from "./stiloBlocoClique";
+import { Div, IMG, P } from "./stiloBlocoClique";
 
 interface BlocoProps{
     src: string;
     texto: string;
+    to:   string;
 }
 
-const BlocoClique: React.FC<BlocoProps> = ({src, texto}) =>{
+const BlocoClique: React.FC<BlocoProps> = ({src, texto, to}) =>{
     return(
-        <>  <Div>
-                <img src={src}/>
+        <>  
+            <Div to={to}>
+                <IMG src={src}/>
                 <P>{texto}</P>
             </Div>
         </>
