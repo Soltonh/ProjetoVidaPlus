@@ -5,9 +5,25 @@ export const Div = styled.div`
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
-    width: 80%;
+    width: 70vw;
     margin: auto;
     padding: 30px;
+
+    @media (max-width: 1200px) {
+        width: 90vw;
+    }
+    
+    @media (max-width: 1024px) {
+        width: 90vw;
+    }
+
+    @media (max-width: 768px) {
+        width: 90vw;
+    }
+
+    @media (max-width: 480px) {
+        width: 90vw;
+    }
 `
 
 export const DivEsq = styled.div`
@@ -20,6 +36,19 @@ export const DivBlocos = styled.div`
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     gap: 20px;
+
+     
+    @media (max-width: 1024px) {
+        grid-template-columns: 30% 30% 30%;
+    }
+
+    @media (max-width: 768px) {
+        grid-template-columns: 30% 30% 30%;
+    }
+
+    @media (max-width: 480px) {
+        grid-template-columns: 30% 30% 30%;
+    }
 `
 
 export const DivDir = styled.div`
@@ -31,6 +60,11 @@ export const Img = styled.img`
     border-radius: 20px;
     width: 100%;
     margin: auto;
+
+    
+    @media (max-width: 480px) {
+        visibility: hidden;
+    }
     
 `
 export const Buttoninicial = styled(ButtonLogin)`
@@ -42,7 +76,12 @@ export const Buttoninicial = styled(ButtonLogin)`
     &:hover{
         background-color:rgb(108, 177, 176);
         border: solid 1px #ADD8D7;
+    } 
+    
+    @media (max-width: 480px) {
+        width: 100%;
     }
+
 `
 
 export const H1 = styled.h1`
@@ -50,6 +89,11 @@ export const H1 = styled.h1`
     text-align: left;
     padding-top: 15px;
     font-size: 45px;
+
+    @media (max-width: 480px) {
+        width: 100%;
+        text-align: center;
+    }
 `
 
 export const H3 = styled.h3`
@@ -57,4 +101,9 @@ export const H3 = styled.h3`
     text-align: left;
     padding-top: 20px;
     font-size: 20px;
+
+    @media (max-width: 480px) {
+        text-align: center;
+        width: 100%;
+    }
 `

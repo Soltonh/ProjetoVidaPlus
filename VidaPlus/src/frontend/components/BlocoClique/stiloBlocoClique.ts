@@ -15,11 +15,11 @@ export const P = styled.p`
     color: #219D9C;
     text-align:center;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 80%;
 `
 
 export const IMG = styled.img`
-    width: 90px;
+    width: 100%;
     padding: 10px;
     margin: auto;
 `

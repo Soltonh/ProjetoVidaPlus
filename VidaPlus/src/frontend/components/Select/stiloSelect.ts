@@ -10,16 +10,19 @@ export const Label = styled.label`
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 5px;
+    margin-top: auto;
 `
 
 export const Selectt = styled.select`
-    width: 250px;
+    width: 100%;
     height: 40px;
     background-color: white;
     border:rgb(197, 197, 197) 1px solid;
     border-radius: 5px;
     color:black;
     font-size: 17px;
-
+    &:focus {
+    outline: none;
+    border: 3px solid #219D9C; /* muda a borda ao focar */
+  }
 `
-

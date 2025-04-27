@@ -4,16 +4,30 @@ import { ButtonLogin, InputStyle } from "../../components/formsLogin/stiloForm";
 
 export const Titulo = styled.h1`
     color: white;
-    font-size: 40px;
+    font-size: 250%;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     margin: auto;
     margin-top: 15%;
     font-weight: 600;
-    width: 20vw;
-    padding: 10px;
+    padding: 1%;
     text-align: center;
 
+  @media (max-width: 1200px){
+  margin-top: 20%;
+  }
+
+  @media (max-width: 1024px) {
+    margin-top: 20%;
+  }
+
+  @media (max-width: 768px){
+    margin-top: 20%;
+  }
+
+  @media (max-width: 480px){
+    margin-top: 30%;
+  }
 `
 
 export const SecaoFundo = styled.section`
@@ -44,6 +58,26 @@ export const InputDiferente = styled(InputStyle)`
   margin-top: -7%;
   width: 20vw;
   font-size: 17px;
+
+  @media (max-width: 1200px){
+    width: 30vw;
+    margin-top: -10%;
+  }
+
+  @media (max-width: 1024px) {
+    width: 30vw;
+    margin-top: -10%;
+  }
+
+  @media (max-width: 768px){
+    width: 50vw;
+    margin-top: -20%;
+  }
+
+  @media (max-width: 480px){
+    width: 70vw;
+    margin-top: -20%;
+  }
 `; 
 
 export const InputDiferente2 = styled(InputStyle)`
@@ -52,6 +86,26 @@ export const InputDiferente2 = styled(InputStyle)`
   margin-top: -11%;
   width: 20vw;
   font-size: 17px;
+
+  @media (max-width: 1200px){
+    width: 30vw;
+    margin-top: -15%;
+  }
+
+  @media (max-width: 1024px) {
+    width: 30vw;
+    margin-top: -15%;
+  }
+
+  @media (max-width: 768px){
+    width: 50vw;
+    margin-top: -30%;
+  }
+
+  @media (max-width: 480px){
+    width: 70vw;
+    margin-top: -40%;
+  }
 `; 
 
 export const BotaoAcessar = styled(ButtonLogin)`
@@ -64,6 +118,26 @@ export const BotaoAcessar = styled(ButtonLogin)`
     background-color: white;
     color: black;
     transition: background-color 0.7s;
+  }
+
+  @media (max-width: 1200px){
+    width: 30vw;
+    margin-top: -20%;
+  }
+
+  @media (max-width: 1024px) {
+    width: 30vw;
+    margin-top: -20%;
+  }
+
+  @media (max-width: 768px){
+    width: 50vw;
+    margin-top: -40%;
+  }
+
+  @media (max-width: 480px){
+    width: 70vw;
+    margin-top: -60%;
   }
 
 `

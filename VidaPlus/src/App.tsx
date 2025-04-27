@@ -6,6 +6,7 @@ import TelaIncialPaciente from './frontend/pages/TelaInicialPaciente/TelaInicial
 import TelaIncialAdm from './frontend/pages/TelaInicialAdm/TelaInicialAdm'
 import TelaIncialProfissional from './frontend/pages/TelaInicialProfissional/TelaInicialProfissional'
 import TelaConsultaPaciente from './frontend/pages/Consultas/consultasPaciente'
+import TelaConsultasMarcadas from "./frontend/pages/Consultas/Marcadas/ConsultasMarcadas"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/profissional" element={<TelaIncialProfissional/>} />
           <Route path="/Adm" element={<TelaIncialAdm/>} />
           <Route path="/consultas" element={<TelaConsultaPaciente/>} />
+          <Route path="/ConsultasMarcadas" element={<TelaConsultasMarcadas/>} />
         </Routes>
       </BrowserRouter>
     </>
