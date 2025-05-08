@@ -1,5 +1,5 @@
-import styled from "styled-Components";
-import { ButtonLogin } from "../../components/formsLogin/stiloForm";
+import styled from "styled-components";
+import { ButtonLogin } from "../../components/formsLogin/FormsLogin";
 
 export const Div = styled.div`
     display: grid;

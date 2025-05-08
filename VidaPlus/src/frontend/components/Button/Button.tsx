@@ -1,5 +1,12 @@
 import React from "react";
-import { InputStyle } from "./stilobutton";
+import styled from "styled-components";
+
+export const InputStyle = styled.input`
+    padding:10px;
+    width:300px;
+    border: 1px solid black;
+    border-radius: 10px;
+`;
 
 interface InputProps{
     type: "email" | "password";
@@ -7,6 +14,9 @@ interface InputProps{
 }
 
 const Input: React.FC<InputProps> = ({type, placeholder}) =>{
+
+
+
     return(
         <>
             <InputStyle type={type} placeholder={placeholder}/>

@@ -1,6 +1,6 @@
-import styled from "styled-Components";
+import styled from "styled-components";
 import Fundo from "../../assets/fundo.jpg"
-import { ButtonLogin, InputStyle } from "../../components/formsLogin/stiloForm";
+import { ButtonLogin, InputStyle } from "../../components/formsLogin/FormsLogin";
 
 export const Titulo = styled.h1`
     color: white;

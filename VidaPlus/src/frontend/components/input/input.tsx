@@ -1,6 +1,12 @@
 import React from "react";
-import "./stiloInput";
-import { Input } from "./stiloInput";
+import styled from "styled-components";
+
+export const Input = styled.input`
+  background-color: white;
+  border: solid 1px black;
+  color: black;
+  border-radius: 4px;
+`
 
 interface InputProps {
   type?: "email" | "password" | "date" | "time" | "radio" | "text";
@@ -12,6 +18,9 @@ interface InputProps {
 }
 
 const Inputs: React.FC<InputProps> = ({ type, placeholder, value, id, name, className }) => {
+  
+
+
   return (
     <>
       <Input

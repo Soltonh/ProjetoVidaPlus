@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Select from "../../components/Select/Select";
 import { Div, DivMeio, DivRadio, H1, H3, InputMotivo, InputRadio, LabelCons } from "./stiloConsPaciente";
-import { ButtonLogin } from "../../components/formsLogin/stiloForm";
+import { ButtonLogin } from "../../components/formsLogin/FormsLogin";
 import Layout from "../../components/Layout/layout";
 
 

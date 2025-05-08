@@ -1,4 +1,4 @@
-import styled from "styled-Components";
+import styled from "styled-components";
 import Inputs from "../../components/input/input";
 
 export const Div = styled.div`

@@ -1,11 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 
-const TabelaGlobal = ({colunas, dados}) => {
-
-    const Tabela = styled.table`
-        width: 100vw;
-
+export const Tabela = styled.table`
+        width: auto;
         & th{
             border: 1px solid black;
         }
@@ -14,9 +11,20 @@ const TabelaGlobal = ({colunas, dados}) => {
             border: 1px solid black;
         }
     `
+
+    
+interface TableProps{
+    colunas: string[];
+    dados: Record<string, string>[];
+    id?:string;
+}
+
+const TabelaGlobal: React.FC<TableProps> = ({colunas, dados, id}) => {
+
+    
     return(
 
-        <Tabela>
+        <Tabela id={id}>
             <thead>
                 <tr>
                     {colunas.map((coluna) =>(

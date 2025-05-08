@@ -5,7 +5,7 @@ import { GlobalStyle } from './stilo'
 import TelaIncialPaciente from './frontend/pages/TelaInicialPaciente/TelaInicialPaciente'
 import TelaIncialAdm from './frontend/pages/TelaInicialAdm/TelaInicialAdm'
 import TelaIncialProfissional from './frontend/pages/TelaInicialProfissional/TelaInicialProfissional'
-import TelaConsultaPaciente from './frontend/pages/Consultas/consultasPaciente'
+import TelaConsultaPaciente from './frontend/pages/Consultas/ConsultasPaciente'
 import TelaConsultasMarcadas from "./frontend/pages/Consultas/Marcadas/ConsultasMarcadas"
 
 function App() {
