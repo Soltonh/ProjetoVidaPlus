@@ -7,6 +7,7 @@ import Menu from "../../assets/menu.svg";
 export const Img = styled.img`
     width: 50%;
     margin: auto;
+    cursor: pointer;
     
     @media (max-width: 768px) {
         width: 80%;
@@ -98,6 +99,9 @@ export const LiSecund = styled.li`
     font-weight: bold;
     margin-left: 15%;
     list-style-type: none;
+    cursor: pointer;
+    padding-left: 6px;
+    border-radius: 10px 0px 10px 0px;
 
 
     &:hover{
@@ -126,15 +130,13 @@ const NavBar: React.FC = () => {
                     <UlPrincipal>
                         <LiPrincipal>Consultas
                             <ul>
-                                <LiSecund>Marcar</LiSecund>
-                                <LiSecund>Marcadas</LiSecund>
-                                <LiSecund>Histórico</LiSecund>
+                                <LiSecund onClick={() => window.open('/consultas', '_self')}>Marcar</LiSecund>
+                                <LiSecund  onClick={() => window.open('/ConsultasMarcadas', '_self')}>Histórico</LiSecund>
                             </ul>
                         </LiPrincipal>
                         <LiPrincipal>Exames
                             <ul>
                                 <LiSecund>Marcar</LiSecund>
-                                <LiSecund>Marcados</LiSecund>
                                 <LiSecund>Histórico</LiSecund>
                             </ul>
                         </LiPrincipal>
@@ -146,7 +148,6 @@ const NavBar: React.FC = () => {
                         <LiPrincipal>Telemedicina
                             <ul>
                                 <LiSecund>Marcar</LiSecund>
-                                <LiSecund>Marcadas</LiSecund>
                                 <LiSecund>Histórico</LiSecund>
                             </ul>
                         </LiPrincipal>

@@ -3,13 +3,6 @@ import styled from "styled-components"
 
 export const Tabela = styled.table`
         width: auto;
-        & th{
-            border: 1px solid black;
-        }
-        
-        & td{
-            border: 1px solid black;
-        }
     `
 
     

@@ -17,6 +17,8 @@ export const Selectt = styled.select`
     border:rgb(197, 197, 197) 1px solid;
     border-radius: 5px;
     color:black;
+    font-size: 16px;
+    padding: 10px;
     &:focus {
     outline: none;
     border: 3px solid #219D9C; /* muda a borda ao focar */

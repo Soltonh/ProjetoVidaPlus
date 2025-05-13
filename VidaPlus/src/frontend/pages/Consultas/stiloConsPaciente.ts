@@ -22,7 +22,7 @@ export const H1 = styled.h1`
     font-size: 30px;
 `
 export const LabelCons = styled.label`
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     font-weight: bold;
     padding: 5px;

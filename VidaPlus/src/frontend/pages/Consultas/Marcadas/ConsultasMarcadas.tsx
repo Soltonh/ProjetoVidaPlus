@@ -111,7 +111,7 @@ const TelaConsultasMarcadas : React.FC = () => {
         <>
         <Layout>
             <DivGeral>
-                <h1 style={{color: "black"}}>Consultas marcadas</h1>
+                <h1>Consultas marcadas</h1>
                 <PrimeDiv>
                     <Inputs type="date" id="Input"></Inputs> 
                     <Select opcoes={Estado} id="Select"></Select>
