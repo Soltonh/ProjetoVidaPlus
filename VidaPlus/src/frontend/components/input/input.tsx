@@ -2,10 +2,14 @@ import React from "react";
 import styled from "styled-components";
 
 export const Input = styled.input`
-  background-color: white;
   border: solid 1px black;
-  color: black;
+  background-color: white;
   border-radius: 4px;
+  color: black;
+
+  &::-webkit-calendar-picker-indicator {
+   filter: brightness(0%);
+  }
 `
 
 interface InputProps {

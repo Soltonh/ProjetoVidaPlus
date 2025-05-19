@@ -17,18 +17,19 @@ export const ButtonLogin = styled.button`
 `;
 
 interface InputProps{
-    type: "email" | "password";
-    placeholder: string;
-    value: string;
+    type: "email" | "password" | "date";
+    placeholder?: string;
+    value?: string;
+    id: string;
 }
 
-const Input: React.FC<InputProps> = ({type, placeholder, value}) =>{
+const Input: React.FC<InputProps> = ({type, placeholder, id}) =>{
 
 
 
     return(
         <>
-            <InputStyle type={type} placeholder={placeholder}/>
+            <InputStyle id={id} type={type} placeholder={placeholder}/>
             <ButtonLogin/>
         </>
     )
