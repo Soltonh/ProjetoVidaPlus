@@ -2,7 +2,6 @@ import React from "react";
 import "./ConMarcStilo"
 import Layout from "../../../components/Layout/layout";
 import Select from "../../../components/Select/Select";
-import  Inputs  from "../../../components/input/input";
 import TabelaGlobal from "../../../components/Table/Table";
 import { DivGeral, DivTabela, PrimeDiv } from "./ConMarcStilo";
 const TelaConsultasMarcadas : React.FC = () => {
@@ -20,6 +19,13 @@ const TelaConsultasMarcadas : React.FC = () => {
         "Médico",
         "Tipo",
         "Status",
+    ];
+    const Intervalos = [
+        "Último mês",
+        "Últimos 3 meses",
+        "Últimos 6 meses",
+        "Últimos 12 meses",
+        "Todos",
     ];
 
     const dados = [
@@ -113,7 +119,7 @@ const TelaConsultasMarcadas : React.FC = () => {
             <DivGeral>
                 <h1>Consultas marcadas</h1>
                 <PrimeDiv>
-                    <Inputs type="date" id="Input"></Inputs> 
+                     <Select opcoes={Intervalos} id="SelectIntervalos"></Select>
                     <Select opcoes={Estado} id="Select"></Select>
                 </PrimeDiv>
             <DivTabela>

@@ -13,7 +13,7 @@ export const Input = styled.input`
 `
 
 interface InputProps {
-  type?: "email" | "password" | "date" | "time" | "radio" | "text";
+  type?: "email" | "password" | "date" | "time" | "radio" | "text" | "file";
   placeholder?: string;
   value?: string;
   id?: string;

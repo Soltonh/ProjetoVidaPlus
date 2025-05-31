@@ -3,6 +3,7 @@ import Select from "../../components/Select/Select";
 import { Div, DivMeio, H1 } from "./stiloExaPaciente";
 import { ButtonLogin } from "../../components/formsLogin/FormsLogin";
 import Layout from "../../components/Layout/layout";
+import { Input } from "../../components/input/input";
 
 
 const TelaExamesPaciente : React.FC = () => {
@@ -53,6 +54,8 @@ const TelaExamesPaciente : React.FC = () => {
                     <Select id="SelectDataExames" opcoes={Dia}></Select>
                     <Select id="SelectHoraExames" opcoes={hora}></Select>
                 </DivMeio>
+                <h3>Anexe o pedido de exame abaixo:</h3>
+                <Input type="file" id="ArquivoConsulta"></Input>
                     <ButtonLogin 
                     onMouseDown={() => setAtivo(true)}  // Quando aperta o botão
                     onMouseUp={() => setAtivo(false)}   // Quando solta o botão

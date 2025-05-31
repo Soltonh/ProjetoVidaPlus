@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const DivGeral = styled.div`
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -7,6 +8,7 @@ export const DivGeral = styled.div`
     padding: 2%;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.27) ;
+    margin-top: 50px;
 
     & h1{
         color: black;
@@ -49,16 +51,22 @@ export const DivTabela = styled.div`
         & th{
             padding: 8px;
             text-align: center;
-            font-size: 0.98rem;
-            font-weight: 500;
+            font-size: 20px;
+            font-weight: 700;
             color:rgb(0, 0, 0);
         }
         & td{
             padding: 8px;
-            font-size: 0.98rem;
+            font-size: 18;
             text-align: center;
             color:rgb(0, 0, 0);
             border-bottom: solid 1px black;
         }
     }
+`
+
+export const ImagemDownload = styled.img`
+    width: 30px;
+    margin: auto;
+    cursor: pointer;
 `

@@ -30,6 +30,22 @@ export const Div = styled.div`
     border-radius: 8px;      /* só visual */
     margin-top: 2%;
   
+  & h3{
+    color: black;
+  }
+
+  #ArquivoConsulta{
+    border: none;
+    color: black;
+    font-size: 16px;
+    &::-webkit-file-upload-button{
+      color: white;
+      background-color: #197c7c;
+      padding: 5px 10px 5px 10px;
+      border-radius: 6px;
+      font-size: 16px;
+  }
+  }
 `
 export const H1 = styled.h1`
     color: #219D9C;

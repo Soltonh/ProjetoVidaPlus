@@ -136,19 +136,8 @@ const NavBar: React.FC = () => {
                         </LiPrincipal>
                         <LiPrincipal>Exames
                             <ul>
-                                <LiSecund>Marcar</LiSecund>
-                                <LiSecund>Histórico</LiSecund>
-                            </ul>
-                        </LiPrincipal>
-                        <LiPrincipal>Prontuários
-                            <ul>
-                                <LiSecund>Histórico</LiSecund>
-                            </ul>
-                        </LiPrincipal>
-                        <LiPrincipal>Telemedicina
-                            <ul>
-                                <LiSecund>Marcar</LiSecund>
-                                <LiSecund>Histórico</LiSecund>
+                                <LiSecund onClick={() => window.open('/Exames', '_self')}>Marcar</LiSecund>
+                                <LiSecund onClick={() => window.open('/ExamesMarcados', '_self')}>Histórico</LiSecund>
                             </ul>
                         </LiPrincipal>
                     </UlPrincipal>   
