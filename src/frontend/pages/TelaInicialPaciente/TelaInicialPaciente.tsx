@@ -1,7 +1,6 @@
 import React from "react";
 import "./stiloTelaInicial"
 
-import NavBar from "../../components/NavBar/NavBar";
 
 import prontuario from "../../assets/prontuario.svg"
 import Tele from "../../assets/Tele.svg"

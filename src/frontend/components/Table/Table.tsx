@@ -5,10 +5,11 @@ export const Tabela = styled.table`
         width: auto;
     `
 
-    
+type RowData = Record<string, string | number | boolean |  React.ReactNode>;
+
 interface TableProps{
     colunas: string[];
-    dados: Record<string, string>[];
+    dados: RowData[];
     id?:string;
 }
 

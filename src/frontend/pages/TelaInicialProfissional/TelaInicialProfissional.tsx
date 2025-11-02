@@ -1,8 +1,6 @@
 import React from "react";
 import "./stiloTelaInicialProfissional"
 
-import NavBar from "../../components/NavBar/NavBar";
-
 import prontuario from "../../assets/prontuario.svg"
 import historico from "../../assets/historico.svg"
 import Exames from "../../assets/Exames.svg"

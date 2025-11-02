@@ -3,13 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "runserver": "ts-node-dev --respawn --transpile-only src/Backend/controller/testes.ts"
+    "runserver": "ts-node-dev --respawn --transpile-only src/Backend/controller/testes.ts",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "@types/express": "^5.0.3",
@@ -31,11 +32,13 @@
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0"
-  }
+  },
+  "homepage": "https://soltonh.github.io/ProjetoVidaPlus/"
 }
