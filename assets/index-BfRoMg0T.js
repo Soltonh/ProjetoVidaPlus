@@ -190,7 +190,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     margin-top: -60%;
   }
 
-`,jv=B2(),Uv=()=>b.jsx(Rv,{children:b.jsxs(Mv,{children:[b.jsx(Dv,{children:"Acesso VidaPlus"}),b.jsx(Ov,{type:"email",placeholder:"Digite seu Email:"}),b.jsx(_v,{type:"password",placeholder:"Digite sua Senha:"}),b.jsx(Cv,{onClick:()=>jv("/paciente"),children:"Acessar"})]})}),Hv=wv`
+`,jv=()=>{const u=B2();return b.jsx(Rv,{children:b.jsxs(Mv,{children:[b.jsx(Dv,{children:"Acesso VidaPlus"}),b.jsx(Ov,{type:"email",placeholder:"Digite seu Email:"}),b.jsx(_v,{type:"password",placeholder:"Digite sua Senha:"}),b.jsx(Cv,{onClick:()=>u("/paciente"),children:"Acessar"})]})})},Uv=wv`
   * {
     margin: 0;
     padding: 0;
@@ -203,7 +203,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     height: 100%;
     background-color: #fff;
   }
-`,Nv=V.div`
+`,Hv=V.div`
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
@@ -227,12 +227,12 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         width: 90vw;
     }
 
-`,Bv=V.div`
+`,Nv=V.div`
     margin-left: auto;
     margin-bottom: auto;
     margin-right: auto;
 
-`,qv=V.div`
+`,Bv=V.div`
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     gap: 20px;
@@ -249,9 +249,9 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     @media (max-width: 480px) {
         grid-template-columns: 30% 30% 30%;
     }
-`,Yv=V.div`
+`,qv=V.div`
     margin: auto;
-`,Gv=V.img`
+`,Yv=V.img`
     margin: auto;
     border-radius: 20px;
     width: 100%;
@@ -263,7 +263,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
 
 
 
-`,Lv=V(fn)`
+`,Gv=V(fn)`
     background-color: #ADD8D7;
     color: black;
     border: solid 1px black;
@@ -277,7 +277,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     @media (max-width: 480px) {
         width: 100%;
     }
-`,Xv=V.h1`
+`,Lv=V.h1`
     color: #219D9C;
     text-align: left;
     padding-top: 15px;
@@ -287,7 +287,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         width: 100%;
         text-align: center;
     }
-`,Qv=V.h3`
+`,Xv=V.h3`
     color: #219D9C;
     text-align: left;
     padding-top: 20px;
@@ -297,7 +297,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         text-align: center;
         width: 100%;
     }
-`,y1="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20id='Layer_1'%20data-name='Layer%201'%20viewBox='0%200%2048%2048'%20width='300'%20height='300'%20version='1.1'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:svgjs='http://svgjs.dev/svgjs'%3e%3cg%20width='100%25'%20height='100%25'%20transform='matrix(1,0,0,1,0,0)'%3e%3crect%20x='39'%20y='9'%20width='6'%20height='9'%20rx='2'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3crect%20x='39'%20y='19.5'%20width='6'%20height='9'%20rx='2'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3crect%20x='39'%20y='30'%20width='6'%20height='9'%20rx='2'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M10,15a.99974.99974,0,0,1-1-1,2,2,0,0,0-4,0,1,1,0,0,1-2,0,4,4,0,0,1,8,0A.99974.99974,0,0,1,10,15Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M10,23a.99974.99974,0,0,1-1-1,2,2,0,0,0-4,0,1,1,0,0,1-2,0,4,4,0,0,1,8,0A.99974.99974,0,0,1,10,23Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M10,31a.99974.99974,0,0,1-1-1,2,2,0,0,0-4,0,1,1,0,0,1-2,0,4,4,0,0,1,8,0A.99974.99974,0,0,1,10,31Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M10,39a.99974.99974,0,0,1-1-1,2,2,0,0,0-4,0,1,1,0,0,1-2,0,4,4,0,0,1,8,0A.99974.99974,0,0,1,10,39Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M22.7998,14.15918,25.106,11.46973a1.013,1.013,0,0,1,.97168-.32618,1.00026,1.00026,0,0,1,.74853.70118l.66651,2.31445h1.67724C28.93262,11.62354,27.16431,9.63867,25,9.63867s-3.93262,1.98487-4.16992,4.52051Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M23.13477,21.20233,25,22.2666l1.86523-1.06427a.99666.99666,0,0,1-.16552-1.82928,4.92547,4.92547,0,0,0,2.3435-3.21387h-2.303a.9999.9999,0,0,1-.96093-.72363l-.36182-1.25586L24.019,15.81055a1.00252,1.00252,0,0,1-.75927.34863h-2.303a4.92547,4.92547,0,0,0,2.3435,3.21387.99666.99666,0,0,1-.16552,1.82928Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M18.91309,27.63867h.94384V25.877a1,1,0,0,1,2,0v1.76172h6.28614V25.877a1,1,0,0,1,2,0v1.76172h.94384a.7403.7403,0,0,0,.73926-.73926,5.24825,5.24825,0,0,0-2.66357-4.70605l-3.667,2.09277a.99746.99746,0,0,1-.99122,0l-3.667-2.09277a5.24825,5.24825,0,0,0-2.66357,4.70605A.7403.7403,0,0,0,18.91309,27.63867Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M39,3H8A2.00583,2.00583,0,0,0,6,5V9.1A4.717,4.717,0,0,1,7,9a5.00181,5.00181,0,0,1,5,5,2,2,0,0,1-4,0,1,1,0,0,0-2,0v3.1A4.717,4.717,0,0,1,7,17a5.00181,5.00181,0,0,1,5,5,2,2,0,0,1-4,0,1,1,0,0,0-2,0v3.1A4.717,4.717,0,0,1,7,25a5.00181,5.00181,0,0,1,5,5,2,2,0,0,1-4,0,1,1,0,0,0-2,0v3.1A4.717,4.717,0,0,1,7,33a5.00181,5.00181,0,0,1,5,5,2,2,0,0,1-4,0,1,1,0,0,0-2,0v5a2.00583,2.00583,0,0,0,2,2H39a2.00583,2.00583,0,0,0,2-2V5A2.00583,2.00583,0,0,0,39,3ZM20.80005,19.94a7.57476,7.57476,0,0,1-2-4.75v-.05c-.01-.14-.02-.28-.02-.41,0-3.91,2.79-7.09,6.22-7.09s6.22,3.18,6.22,7.09c0,.13-.01.27-.02.41v.05a7.5734,7.5734,0,0,1-2,4.75,7.35712,7.35712,0,0,1,4.63013,6.96,2.74419,2.74419,0,0,1-2.74,2.74H18.91016a2.74425,2.74425,0,0,1-2.74024-2.74A7.35712,7.35712,0,0,1,20.80005,19.94ZM34,39H16a1,1,0,0,1,0-2H34a1,1,0,0,1,0,2Zm0-4H16a1,1,0,0,1,0-2H34a1,1,0,0,1,0,2Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3c/svg%3e",Zv="data:image/svg+xml,%3csvg%20height='300'%20viewBox='-19%20-24%20618.66669%20618'%20width='300'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:svgjs='http://svgjs.dev/svgjs'%3e%3cg%20width='100%25'%20height='100%25'%20transform='matrix(1,0,0,1,0,0)'%3e%3cpath%20d='m10%20570h280c5.523438%200%2010-4.476562%2010-10v-70h-260v-20h260v-95.210938c-25.328125-20.867187-40-51.972656-40-84.789062v-90c0-27.613281-22.386719-50-50-50s-50%2022.386719-50%2050v41c25.152344%205.132812%2042.328125%2028.476562%2039.746094%2054.015625-2.578125%2025.535156-24.078125%2044.976563-49.746094%2044.976563s-47.167969-19.441407-49.746094-44.976563c-2.582031-25.539063%2014.59375-48.882813%2039.746094-54.015625v-41c0-38.660156%2031.335938-70%2070-70s70%2031.339844%2070%2070v90c-.003906%2020.550781%207.054688%2040.480469%2020%2056.441406v-326.441406c0-5.523438-4.476562-10-10-10h-280c-5.523438%200-10%204.476562-10%2010v50h260v20h-260v470c0%205.523438%204.476562%2010%2010%2010zm130-50h20v20h-20zm70-130h40v20h-40zm-40%200h20v20h-20zm0%2040h80v20h-80zm-100-380h-20v-20h20zm60%200h-20v-20h20zm-110%2070c0-5.523438%204.476562-10%2010-10h40v20h-30v30h-20zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m180%20290c0%2016.566406-13.433594%2030-30%2030s-30-13.433594-30-30%2013.433594-30%2030-30%2030%2013.433594%2030%2030zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m570%2010h-30v-10h-30c-5.523438%200-10%204.476562-10%2010v20c0%205.523438%204.476562%2010%2010%2010h30v-10h20v140c0%2049.707031-40.292969%2090-90%2090s-90-40.292969-90-90v-140h20v10h30c5.523438%200%2010-4.476562%2010-10v-20c0-5.523438-4.476562-10-10-10h-30v10h-30c-5.523438%200-10%204.476562-10%2010v150c.074219%2056.835938%2043.402344%20104.277344%20100%20109.492188v10.507812c.039062%2038.164062-24.023438%2072.191406-60.019531%2084.882812-35.996094%2012.6875-76.074219%201.269532-99.980469-28.480468v28.5c32.855469%2027.101562%2078.402344%2032.804687%20116.921875%2014.632812%2038.527344-18.167968%2063.097656-56.941406%2063.078125-99.535156v-10.507812c56.597656-5.214844%2099.925781-52.65625%20100-109.492188v-150c0-5.523438-4.476562-10-10-10zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3c/svg%3e",tf="/ProjetoVidaPlus/assets/Exames-BGPYmmsy.svg",x1="data:image/svg+xml,%3csvg%20height='300'%20viewBox='0%200%20512%20512'%20width='300'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:svgjs='http://svgjs.dev/svgjs'%3e%3cg%20width='100%25'%20height='100%25'%20transform='matrix(1,0,0,1,0,0)'%3e%3cpath%20d='m454.976562%2094.539062c0%2034.46875-27.941406%2062.410157-62.40625%2062.410157-34.46875%200-62.410156-27.941407-62.410156-62.410157%200-34.464843%2027.941406-62.40625%2062.410156-62.40625%2034.464844%200%2062.40625%2027.941407%2062.40625%2062.40625zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m284.550781%20175.378906-29.621093-44.417968v-75.789063c0-30.242187-24.390626-55.171875-55.160157-55.171875h-144.597656c-30.613281%200-55.171875%2024.78125-55.171875%2055.171875v88.359375c0%2030.320312%2024.46875%2055.167969%2055.171875%2055.167969h216.898437c11.949219%200%2019.121094-13.359375%2012.480469-23.320313zm-157.503906-32.910156h-47.359375c-8.078125%200-15.027344-6.214844-15.402344-14.285156-.394531-8.617188%206.457032-15.714844%2014.984375-15.714844h48.203125c8.511719%200%2015.378906%207.097656%2014.980469%2015.710938-.371094%208.074218-7.324219%2014.289062-15.40625%2014.289062zm48.625-56.238281h-95.976563c-8.074218%200-15.019531-6.199219-15.40625-14.261719-.414062-8.617188%206.445313-15.738281%2014.980469-15.738281h95.976563c8.082031%200%2015.035156%206.214843%2015.40625%2014.289062.398437%208.613281-6.46875%2015.710938-14.980469%2015.710938zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m116.484375%20372.152344c-64.605469.222656-116.484375%2053.558594-116.484375%20118.164062v3.289063c0%2010.160156%208.234375%2018.394531%2018.394531%2018.394531h197.003907c10.160156%200%2018.394531-8.234375%2018.394531-18.394531v-4.558594c0-64.699219-52.558594-117.121094-117.308594-116.894531zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m190.507812%20298.542969c0%2040.652343-32.953124%2073.609375-73.609374%2073.609375-40.652344%200-73.609376-32.957032-73.609376-73.609375%200-40.652344%2032.957032-73.609375%2073.609376-73.609375%2040.65625%200%2073.609374%2032.957031%2073.609374%2073.609375zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m487.230469%20241h-189.332031c5.582031-47.328125%2045.832031-84.050781%2094.671874-84.050781%2048.828126%200%2089.078126%2036.722656%2094.660157%2084.050781zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m497%20272c8.285156%200%2015%206.714844%2015%2015v177.871094c0%208.519531-7.109375%2015.390625-15.730469%2014.980468-8.058593-.382812-14.269531-7.332031-14.269531-15.410156v-16.710937h-224.128906c-10.082032-34.320313-32.371094-63.480469-61.839844-82.390625%2015.257812-18.050782%2024.480469-41.371094%2024.480469-66.800782%200-9.167968-1.203125-18.058593-3.453125-26.539062zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3c/svg%3e",ef="data:image/svg+xml,%3csvg%20id='svg11588'%20height='300'%20viewBox='0%200%2069.344719%2074.668396'%20width='300'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:svg='http://www.w3.org/2000/svg'%20version='1.1'%20xmlns:svgjs='http://svgjs.dev/svgjs'%3e%3cg%20width='100%25'%20height='100%25'%20transform='matrix(1,0,0,1,0,0)'%3e%3cclipPath%20id='clipPath11604'%3e%3cpath%20id='path11602'%20d='m0%2064h64v-64h-64z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/clipPath%3e%3cg%20id='g11596'%20transform='matrix(1.333%200%200%20-1.333%20-7.994%2080.001)'%3e%3cg%20id='g11598'%3e%3cg%20id='g11600'%20clip-path='url(%23clipPath11604)'%3e%3cg%20id='g11606'%20transform='translate(57.631%2025.471)'%3e%3cpath%20id='path11608'%20d='m0%200v.001c-1.018%204.252-4.42%207.684-8.465%208.538-3.058.647-6.027-.175-8.521-1.062l-1.576-.564c-1.572-.584-3.197-1.189-4.797-1.53-.684-.144-1.347-.204-2.031-.182-1.995.052-4.028.757-6.235%201.522-2.48.849-5.045%201.728-8.033%201.907-2.561.151-4.935-.396-6.86-1.592-2.975-1.851-4.881-5.295-5.098-9.216-.15-2.834.584-5.724%202.069-8.14%202.536-4.119%206.742-6.317%2010.524-7.925%205.272-2.233%209.441-3.229%2013.52-3.229.212%200%20.424.001.587.01%205.038.121%209.955%202.044%2013.216%203.481%209.06%203.992%2013.434%2010.714%2011.7%2017.981'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3cg%20id='g11610'%20transform='translate(31.996%2036.001)'%3e%3cpath%20id='path11612'%20d='m0%200c6.617%200%2012%205.383%2012%2012s-5.383%2012-12%2012-12-5.383-12-12%205.383-12%2012-12'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e",af="/ProjetoVidaPlus/assets/MedicoInicial-Dcg0XmH5.jpg",Vv=V(K0)`
+`,y1="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20id='Layer_1'%20data-name='Layer%201'%20viewBox='0%200%2048%2048'%20width='300'%20height='300'%20version='1.1'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:svgjs='http://svgjs.dev/svgjs'%3e%3cg%20width='100%25'%20height='100%25'%20transform='matrix(1,0,0,1,0,0)'%3e%3crect%20x='39'%20y='9'%20width='6'%20height='9'%20rx='2'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3crect%20x='39'%20y='19.5'%20width='6'%20height='9'%20rx='2'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3crect%20x='39'%20y='30'%20width='6'%20height='9'%20rx='2'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M10,15a.99974.99974,0,0,1-1-1,2,2,0,0,0-4,0,1,1,0,0,1-2,0,4,4,0,0,1,8,0A.99974.99974,0,0,1,10,15Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M10,23a.99974.99974,0,0,1-1-1,2,2,0,0,0-4,0,1,1,0,0,1-2,0,4,4,0,0,1,8,0A.99974.99974,0,0,1,10,23Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M10,31a.99974.99974,0,0,1-1-1,2,2,0,0,0-4,0,1,1,0,0,1-2,0,4,4,0,0,1,8,0A.99974.99974,0,0,1,10,31Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M10,39a.99974.99974,0,0,1-1-1,2,2,0,0,0-4,0,1,1,0,0,1-2,0,4,4,0,0,1,8,0A.99974.99974,0,0,1,10,39Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M22.7998,14.15918,25.106,11.46973a1.013,1.013,0,0,1,.97168-.32618,1.00026,1.00026,0,0,1,.74853.70118l.66651,2.31445h1.67724C28.93262,11.62354,27.16431,9.63867,25,9.63867s-3.93262,1.98487-4.16992,4.52051Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M23.13477,21.20233,25,22.2666l1.86523-1.06427a.99666.99666,0,0,1-.16552-1.82928,4.92547,4.92547,0,0,0,2.3435-3.21387h-2.303a.9999.9999,0,0,1-.96093-.72363l-.36182-1.25586L24.019,15.81055a1.00252,1.00252,0,0,1-.75927.34863h-2.303a4.92547,4.92547,0,0,0,2.3435,3.21387.99666.99666,0,0,1-.16552,1.82928Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M18.91309,27.63867h.94384V25.877a1,1,0,0,1,2,0v1.76172h6.28614V25.877a1,1,0,0,1,2,0v1.76172h.94384a.7403.7403,0,0,0,.73926-.73926,5.24825,5.24825,0,0,0-2.66357-4.70605l-3.667,2.09277a.99746.99746,0,0,1-.99122,0l-3.667-2.09277a5.24825,5.24825,0,0,0-2.66357,4.70605A.7403.7403,0,0,0,18.91309,27.63867Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='M39,3H8A2.00583,2.00583,0,0,0,6,5V9.1A4.717,4.717,0,0,1,7,9a5.00181,5.00181,0,0,1,5,5,2,2,0,0,1-4,0,1,1,0,0,0-2,0v3.1A4.717,4.717,0,0,1,7,17a5.00181,5.00181,0,0,1,5,5,2,2,0,0,1-4,0,1,1,0,0,0-2,0v3.1A4.717,4.717,0,0,1,7,25a5.00181,5.00181,0,0,1,5,5,2,2,0,0,1-4,0,1,1,0,0,0-2,0v3.1A4.717,4.717,0,0,1,7,33a5.00181,5.00181,0,0,1,5,5,2,2,0,0,1-4,0,1,1,0,0,0-2,0v5a2.00583,2.00583,0,0,0,2,2H39a2.00583,2.00583,0,0,0,2-2V5A2.00583,2.00583,0,0,0,39,3ZM20.80005,19.94a7.57476,7.57476,0,0,1-2-4.75v-.05c-.01-.14-.02-.28-.02-.41,0-3.91,2.79-7.09,6.22-7.09s6.22,3.18,6.22,7.09c0,.13-.01.27-.02.41v.05a7.5734,7.5734,0,0,1-2,4.75,7.35712,7.35712,0,0,1,4.63013,6.96,2.74419,2.74419,0,0,1-2.74,2.74H18.91016a2.74425,2.74425,0,0,1-2.74024-2.74A7.35712,7.35712,0,0,1,20.80005,19.94ZM34,39H16a1,1,0,0,1,0-2H34a1,1,0,0,1,0,2Zm0-4H16a1,1,0,0,1,0-2H34a1,1,0,0,1,0,2Z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3c/svg%3e",Qv="data:image/svg+xml,%3csvg%20height='300'%20viewBox='-19%20-24%20618.66669%20618'%20width='300'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:svgjs='http://svgjs.dev/svgjs'%3e%3cg%20width='100%25'%20height='100%25'%20transform='matrix(1,0,0,1,0,0)'%3e%3cpath%20d='m10%20570h280c5.523438%200%2010-4.476562%2010-10v-70h-260v-20h260v-95.210938c-25.328125-20.867187-40-51.972656-40-84.789062v-90c0-27.613281-22.386719-50-50-50s-50%2022.386719-50%2050v41c25.152344%205.132812%2042.328125%2028.476562%2039.746094%2054.015625-2.578125%2025.535156-24.078125%2044.976563-49.746094%2044.976563s-47.167969-19.441407-49.746094-44.976563c-2.582031-25.539063%2014.59375-48.882813%2039.746094-54.015625v-41c0-38.660156%2031.335938-70%2070-70s70%2031.339844%2070%2070v90c-.003906%2020.550781%207.054688%2040.480469%2020%2056.441406v-326.441406c0-5.523438-4.476562-10-10-10h-280c-5.523438%200-10%204.476562-10%2010v50h260v20h-260v470c0%205.523438%204.476562%2010%2010%2010zm130-50h20v20h-20zm70-130h40v20h-40zm-40%200h20v20h-20zm0%2040h80v20h-80zm-100-380h-20v-20h20zm60%200h-20v-20h20zm-110%2070c0-5.523438%204.476562-10%2010-10h40v20h-30v30h-20zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m180%20290c0%2016.566406-13.433594%2030-30%2030s-30-13.433594-30-30%2013.433594-30%2030-30%2030%2013.433594%2030%2030zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m570%2010h-30v-10h-30c-5.523438%200-10%204.476562-10%2010v20c0%205.523438%204.476562%2010%2010%2010h30v-10h20v140c0%2049.707031-40.292969%2090-90%2090s-90-40.292969-90-90v-140h20v10h30c5.523438%200%2010-4.476562%2010-10v-20c0-5.523438-4.476562-10-10-10h-30v10h-30c-5.523438%200-10%204.476562-10%2010v150c.074219%2056.835938%2043.402344%20104.277344%20100%20109.492188v10.507812c.039062%2038.164062-24.023438%2072.191406-60.019531%2084.882812-35.996094%2012.6875-76.074219%201.269532-99.980469-28.480468v28.5c32.855469%2027.101562%2078.402344%2032.804687%20116.921875%2014.632812%2038.527344-18.167968%2063.097656-56.941406%2063.078125-99.535156v-10.507812c56.597656-5.214844%2099.925781-52.65625%20100-109.492188v-150c0-5.523438-4.476562-10-10-10zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3c/svg%3e",tf="/ProjetoVidaPlus/assets/Exames-BGPYmmsy.svg",x1="data:image/svg+xml,%3csvg%20height='300'%20viewBox='0%200%20512%20512'%20width='300'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:svgjs='http://svgjs.dev/svgjs'%3e%3cg%20width='100%25'%20height='100%25'%20transform='matrix(1,0,0,1,0,0)'%3e%3cpath%20d='m454.976562%2094.539062c0%2034.46875-27.941406%2062.410157-62.40625%2062.410157-34.46875%200-62.410156-27.941407-62.410156-62.410157%200-34.464843%2027.941406-62.40625%2062.410156-62.40625%2034.464844%200%2062.40625%2027.941407%2062.40625%2062.40625zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m284.550781%20175.378906-29.621093-44.417968v-75.789063c0-30.242187-24.390626-55.171875-55.160157-55.171875h-144.597656c-30.613281%200-55.171875%2024.78125-55.171875%2055.171875v88.359375c0%2030.320312%2024.46875%2055.167969%2055.171875%2055.167969h216.898437c11.949219%200%2019.121094-13.359375%2012.480469-23.320313zm-157.503906-32.910156h-47.359375c-8.078125%200-15.027344-6.214844-15.402344-14.285156-.394531-8.617188%206.457032-15.714844%2014.984375-15.714844h48.203125c8.511719%200%2015.378906%207.097656%2014.980469%2015.710938-.371094%208.074218-7.324219%2014.289062-15.40625%2014.289062zm48.625-56.238281h-95.976563c-8.074218%200-15.019531-6.199219-15.40625-14.261719-.414062-8.617188%206.445313-15.738281%2014.980469-15.738281h95.976563c8.082031%200%2015.035156%206.214843%2015.40625%2014.289062.398437%208.613281-6.46875%2015.710938-14.980469%2015.710938zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m116.484375%20372.152344c-64.605469.222656-116.484375%2053.558594-116.484375%20118.164062v3.289063c0%2010.160156%208.234375%2018.394531%2018.394531%2018.394531h197.003907c10.160156%200%2018.394531-8.234375%2018.394531-18.394531v-4.558594c0-64.699219-52.558594-117.121094-117.308594-116.894531zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m190.507812%20298.542969c0%2040.652343-32.953124%2073.609375-73.609374%2073.609375-40.652344%200-73.609376-32.957032-73.609376-73.609375%200-40.652344%2032.957032-73.609375%2073.609376-73.609375%2040.65625%200%2073.609374%2032.957031%2073.609374%2073.609375zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m487.230469%20241h-189.332031c5.582031-47.328125%2045.832031-84.050781%2094.671874-84.050781%2048.828126%200%2089.078126%2036.722656%2094.660157%2084.050781zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m497%20272c8.285156%200%2015%206.714844%2015%2015v177.871094c0%208.519531-7.109375%2015.390625-15.730469%2014.980468-8.058593-.382812-14.269531-7.332031-14.269531-15.410156v-16.710937h-224.128906c-10.082032-34.320313-32.371094-63.480469-61.839844-82.390625%2015.257812-18.050782%2024.480469-41.371094%2024.480469-66.800782%200-9.167968-1.203125-18.058593-3.453125-26.539062zm0%200'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3c/svg%3e",ef="data:image/svg+xml,%3csvg%20id='svg11588'%20height='300'%20viewBox='0%200%2069.344719%2074.668396'%20width='300'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:svg='http://www.w3.org/2000/svg'%20version='1.1'%20xmlns:svgjs='http://svgjs.dev/svgjs'%3e%3cg%20width='100%25'%20height='100%25'%20transform='matrix(1,0,0,1,0,0)'%3e%3cclipPath%20id='clipPath11604'%3e%3cpath%20id='path11602'%20d='m0%2064h64v-64h-64z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/clipPath%3e%3cg%20id='g11596'%20transform='matrix(1.333%200%200%20-1.333%20-7.994%2080.001)'%3e%3cg%20id='g11598'%3e%3cg%20id='g11600'%20clip-path='url(%23clipPath11604)'%3e%3cg%20id='g11606'%20transform='translate(57.631%2025.471)'%3e%3cpath%20id='path11608'%20d='m0%200v.001c-1.018%204.252-4.42%207.684-8.465%208.538-3.058.647-6.027-.175-8.521-1.062l-1.576-.564c-1.572-.584-3.197-1.189-4.797-1.53-.684-.144-1.347-.204-2.031-.182-1.995.052-4.028.757-6.235%201.522-2.48.849-5.045%201.728-8.033%201.907-2.561.151-4.935-.396-6.86-1.592-2.975-1.851-4.881-5.295-5.098-9.216-.15-2.834.584-5.724%202.069-8.14%202.536-4.119%206.742-6.317%2010.524-7.925%205.272-2.233%209.441-3.229%2013.52-3.229.212%200%20.424.001.587.01%205.038.121%209.955%202.044%2013.216%203.481%209.06%203.992%2013.434%2010.714%2011.7%2017.981'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3cg%20id='g11610'%20transform='translate(31.996%2036.001)'%3e%3cpath%20id='path11612'%20d='m0%200c6.617%200%2012%205.383%2012%2012s-5.383%2012-12%2012-12-5.383-12-12%205.383-12%2012-12'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e",af="/ProjetoVidaPlus/assets/MedicoInicial-Dcg0XmH5.jpg",Zv=V(K0)`
     border: solid 4px #219D9C;
     border-radius: 10px;
     margin-top: 15px;
@@ -305,16 +305,16 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    `,kv=V.p`
+    `,Vv=V.p`
     color: #219D9C;
     text-align:center;
     font-weight: bold;
     font-size: 80%;
-`,Kv=V.img`
+`,kv=V.img`
     width: 100%;
     padding: 10px;
     margin: auto;
-`,Se=({src:u,texto:c,to:f})=>b.jsx(b.Fragment,{children:b.jsxs(Vv,{to:f,children:[b.jsx(Kv,{src:u}),b.jsx(kv,{children:c})]})}),Jv="data:image/svg+xml,%3csvg%20height='300'%20viewBox='0%200%2032%2032'%20width='300'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:svgjs='http://svgjs.dev/svgjs'%3e%3cg%20width='100%25'%20height='100%25'%20transform='matrix(1,0,0,1,0,0)'%3e%3cg%20id='Layer_2'%20data-name='Layer%202'%3e%3cpath%20d='m4%209h24a3%203%200%200%200%200-6h-24a3%203%200%200%200%200%206z'%20fill='%23ffffff'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m28%2013h-24a3%203%200%200%200%200%206h24a3%203%200%200%200%200-6z'%20fill='%23ffffff'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m28%2023h-24a3%203%200%200%200%200%206h24a3%203%200%200%200%200-6z'%20fill='%23ffffff'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e",$v=V.img`
+`,Se=({src:u,texto:c,to:f})=>b.jsx(b.Fragment,{children:b.jsxs(Zv,{to:f,children:[b.jsx(kv,{src:u}),b.jsx(Vv,{children:c})]})}),Kv="data:image/svg+xml,%3csvg%20height='300'%20viewBox='0%200%2032%2032'%20width='300'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:svgjs='http://svgjs.dev/svgjs'%3e%3cg%20width='100%25'%20height='100%25'%20transform='matrix(1,0,0,1,0,0)'%3e%3cg%20id='Layer_2'%20data-name='Layer%202'%3e%3cpath%20d='m4%209h24a3%203%200%200%200%200-6h-24a3%203%200%200%200%200%206z'%20fill='%23ffffff'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m28%2013h-24a3%203%200%200%200%200%206h24a3%203%200%200%200%200-6z'%20fill='%23ffffff'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3cpath%20d='m28%2023h-24a3%203%200%200%200%200%206h24a3%203%200%200%200%200-6z'%20fill='%23ffffff'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e",Jv=V.img`
     width: 50%;
     margin: auto;
     cursor: pointer;
@@ -328,7 +328,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         width: 100%;
         margin: auto;
     }
-`,Wv=V.div`
+`,$v=V.div`
     width: 100vw;
     height: 7vh;
     display:grid;
@@ -347,7 +347,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     @media (max-width: 480px) {
     padding: 0.5rem;
     }
-`,Fv=V.div`
+`,Wv=V.div`
     width: 12vw;
     height: 100vh;
     background-color:#219D9C ;
@@ -377,14 +377,14 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         width: 40vw;
         margin-top: 16.4%;
     }
-`,Pv=V.h1`
+`,Fv=V.h1`
     color: white;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: auto;  
     font-size: 150%;
     
-`,Iv=V.ul`
+`,Pv=V.ul`
     margin: auto;
     width: 100%;
     list-style-type: none;
@@ -409,12 +409,12 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         color: #219D9C;
         width: 9.1vw;
     }
-`,tg=()=>{const[u,c]=U.useState(!1),f=()=>{c(!u)};return b.jsx(b.Fragment,{children:b.jsxs(Wv,{children:[b.jsx($v,{src:Jv,onClick:f}),b.jsx(Pv,{children:"Sistema de Gestão Hospitalar e de Serviços de Saúde"}),b.jsx(Fv,{menuAberto:u,children:b.jsxs(Iv,{children:[b.jsxs(z2,{children:["Consultas",b.jsxs("ul",{children:[b.jsx(Bi,{onClick:()=>window.open("/consultas","_self"),children:"Marcar"}),b.jsx(Bi,{onClick:()=>window.open("/ConsultasMarcadas","_self"),children:"Histórico"})]})]}),b.jsxs(z2,{children:["Exames",b.jsxs("ul",{children:[b.jsx(Bi,{onClick:()=>window.open("/Exames","_self"),children:"Marcar"}),b.jsx(Bi,{onClick:()=>window.open("/ExamesMarcados","_self"),children:"Histórico"})]})]})]})})]})})},eg=V.div`
+`,Iv=()=>{const[u,c]=U.useState(!1),f=()=>{c(!u)};return b.jsx(b.Fragment,{children:b.jsxs($v,{children:[b.jsx(Jv,{src:Kv,onClick:f}),b.jsx(Fv,{children:"Sistema de Gestão Hospitalar e de Serviços de Saúde"}),b.jsx(Wv,{menuAberto:u,children:b.jsxs(Pv,{children:[b.jsxs(z2,{children:["Consultas",b.jsxs("ul",{children:[b.jsx(Bi,{onClick:()=>window.open("/consultas","_self"),children:"Marcar"}),b.jsx(Bi,{onClick:()=>window.open("/ConsultasMarcadas","_self"),children:"Histórico"})]})]}),b.jsxs(z2,{children:["Exames",b.jsxs("ul",{children:[b.jsx(Bi,{onClick:()=>window.open("/Exames","_self"),children:"Marcar"}),b.jsx(Bi,{onClick:()=>window.open("/ExamesMarcados","_self"),children:"Histórico"})]})]})]})})]})})},tg=V.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   width: 100vw;
-`,ag=V.main`
+`,eg=V.main`
   flex: 1; /* ocupa todo o espaço disponível */
   display: flex;
   justify-content: center;
@@ -434,7 +434,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
   @media (max-width: 480px) {
     margin-top: 30%;
   }
-`,dl=({children:u})=>b.jsxs(eg,{children:[b.jsx(tg,{}),b.jsx(ag,{children:u})]}),lg=()=>b.jsx(b.Fragment,{children:b.jsx(dl,{children:b.jsxs(Nv,{children:[b.jsxs(Bv,{children:[b.jsx(Xv,{children:"Cadastro e Atendimento de Pacientes"}),b.jsx(Qv,{children:"Gerencie Consultas, Exames, Prontuários e Telemedicina"}),b.jsx(Lv,{children:"Saiba Mais..."}),b.jsxs(qv,{children:[b.jsx(Se,{src:x1,texto:"Consulta",to:"/consultas"}),b.jsx(Se,{src:tf,texto:"Exames",to:"/exames"}),b.jsx(Se,{src:y1,texto:"Prontuários",to:"/prontuarios"}),b.jsx(Se,{src:Zv,texto:"Telemedicina",to:"/telemedicina"}),b.jsx(Se,{src:ef,texto:"Gerenciar Dados",to:"/GerenciarCadastroPaciente"})]})]}),b.jsx(Yv,{children:b.jsx(Gv,{src:af})})]})})}),ng=V.div`
+`,dl=({children:u})=>b.jsxs(tg,{children:[b.jsx(Iv,{}),b.jsx(eg,{children:u})]}),ag=()=>b.jsx(b.Fragment,{children:b.jsx(dl,{children:b.jsxs(Hv,{children:[b.jsxs(Nv,{children:[b.jsx(Lv,{children:"Cadastro e Atendimento de Pacientes"}),b.jsx(Xv,{children:"Gerencie Consultas, Exames, Prontuários e Telemedicina"}),b.jsx(Gv,{children:"Saiba Mais..."}),b.jsxs(Bv,{children:[b.jsx(Se,{src:x1,texto:"Consulta",to:"/consultas"}),b.jsx(Se,{src:tf,texto:"Exames",to:"/exames"}),b.jsx(Se,{src:y1,texto:"Prontuários",to:"/prontuarios"}),b.jsx(Se,{src:Qv,texto:"Telemedicina",to:"/telemedicina"}),b.jsx(Se,{src:ef,texto:"Gerenciar Dados",to:"/GerenciarCadastroPaciente"})]})]}),b.jsx(qv,{children:b.jsx(Yv,{src:af})})]})})}),lg=V.div`
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
@@ -457,12 +457,12 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     @media (max-width: 480px) {
         width: 90vw;
     }
-`,ug=V.div`
+`,ng=V.div`
     margin-left: auto;
     margin-bottom: auto;
     margin-right: auto;
 
-`,ig=V.div`
+`,ug=V.div`
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     gap: 20px;
@@ -478,9 +478,9 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     @media (max-width: 480px) {
         grid-template-columns: 30% 30% 30%;
     }
-`,cg=V.div`
+`,ig=V.div`
     margin: auto;
-`,rg=V.img`
+`,cg=V.img`
     margin: auto;
     border-radius: 20px;
     width: 90%;
@@ -491,7 +491,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         visibility: hidden;
     }
     
-`,fg=V(fn)`
+`,rg=V(fn)`
     background-color: #ADD8D7;
     color: black;
     border: solid 1px black;
@@ -505,7 +505,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     @media (max-width: 480px) {
         width: 100%;
     }
-`,og=V.h1`
+`,fg=V.h1`
     color: #219D9C;
     text-align: left;
     padding-top: 15px;
@@ -515,7 +515,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         width: 100%;
         text-align: center;
     }
-`,sg=V.h3`
+`,og=V.h3`
     color: #219D9C;
     text-align: left;
     padding-top: 20px;
@@ -525,7 +525,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         text-align: center;
         width: 100%;
     }
-`,dg=()=>b.jsx(b.Fragment,{children:b.jsx(dl,{children:b.jsxs(ng,{children:[b.jsxs(ug,{children:[b.jsx(og,{children:"Gestão de Administradores"}),b.jsx(sg,{children:"Gerencie Cadastros, Fluxo de internações e Relatórios"}),b.jsx(fg,{children:"Saiba Mais..."}),b.jsxs(ig,{children:[b.jsx(Se,{src:ef,texto:"Gerenciar Cadastros",to:"/GerenciarCadastroAdm"}),b.jsx(Se,{src:x1,texto:"Fluxo de Internações",to:"/internacoes"}),b.jsx(Se,{src:tf,texto:"Relatórios",to:"/relatorios"})]})]}),b.jsx(cg,{children:b.jsx(rg,{src:af})})]})})}),hg=V.div`
+`,sg=()=>b.jsx(b.Fragment,{children:b.jsx(dl,{children:b.jsxs(lg,{children:[b.jsxs(ng,{children:[b.jsx(fg,{children:"Gestão de Administradores"}),b.jsx(og,{children:"Gerencie Cadastros, Fluxo de internações e Relatórios"}),b.jsx(rg,{children:"Saiba Mais..."}),b.jsxs(ug,{children:[b.jsx(Se,{src:ef,texto:"Gerenciar Cadastros",to:"/GerenciarCadastroAdm"}),b.jsx(Se,{src:x1,texto:"Fluxo de Internações",to:"/internacoes"}),b.jsx(Se,{src:tf,texto:"Relatórios",to:"/relatorios"})]})]}),b.jsx(ig,{children:b.jsx(cg,{src:af})})]})})}),dg=V.div`
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
@@ -548,12 +548,12 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     @media (max-width: 480px) {
         width: 90vw;
     }
-`,mg=V.div`
+`,hg=V.div`
     margin-left: auto;
     margin-bottom: auto;
     margin-right: auto;
 
-`,pg=V.div`
+`,mg=V.div`
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     gap: 20px;
@@ -570,9 +570,9 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     @media (max-width: 480px) {
         grid-template-columns: 30% 30% 30%;
     }
-`,vg=V.div`
+`,pg=V.div`
     margin: auto;
-`,gg=V.img`
+`,vg=V.img`
     margin: auto;
     border-radius: 20px;
     width: 100%;
@@ -583,7 +583,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         visibility: hidden;
     }
     
-`,yg=V(fn)`
+`,gg=V(fn)`
     background-color: #ADD8D7;
     color: black;
     border: solid 1px black;
@@ -598,7 +598,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         width: 100%;
     }
 
-`,xg=V.h1`
+`,yg=V.h1`
     color: #219D9C;
     text-align: left;
     padding-top: 15px;
@@ -608,7 +608,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         width: 100%;
         text-align: center;
     }
-`,bg=V.h3`
+`,xg=V.h3`
     color: #219D9C;
     text-align: left;
     padding-top: 20px;
@@ -618,14 +618,14 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         text-align: center;
         width: 100%;
     }
-`,Sg="data:image/svg+xml,%3csvg%20id='Layer_1'%20enable-background='new%200%200%20512%20512'%20viewBox='0%200%20512%20512'%20xmlns='http://www.w3.org/2000/svg'%20width='300'%20height='300'%20version='1.1'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:svgjs='http://svgjs.dev/svgjs'%3e%3cg%20width='100%25'%20height='100%25'%20transform='matrix(1,0,0,1,0,0)'%3e%3cpath%20d='m279.785%20257.805c0%2056.682%2045.95%20102.632%20102.632%20102.632s102.632-45.95%20102.632-102.632-45.95-102.632-102.632-102.632-102.632%2045.95-102.632%20102.632zm177.364%200c0%2041.274-33.459%2074.733-74.733%2074.733-41.273%200-74.732-33.459-74.732-74.733s33.459-74.733%2074.732-74.733c41.274%200%2074.733%2033.459%2074.733%2074.733zm-334.375%20175.263c0-19.4%2015.803-35.204%2035.204-35.204h224.438v-22.428c-64.966%200-117.631-52.665-117.631-117.631s52.665-117.632%20117.631-117.632v-111.469c0-11.128-9.08-20.204-20.204-20.204h-315.056c-11.128%200-20.204%209.077-20.204%2020.204v421.204c0%2029.475%2021.56%2053.592%2047.912%2053.592%2027.584%200%2046.812-25.24%2047.864-51.313.216-6.322.046-12.782.046-19.119zm164.241-62.953h46.881c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-46.881c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm-15.617-53.307c0%204.142-3.358%207.5-7.5%207.5h-56.79c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5h56.79c4.142%200%207.5%203.358%207.5%207.5zm-140.851-53.308c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5h118.521c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5zm133.35-60.808h-50.855c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5h50.855c4.142%200%207.5%203.358%207.5%207.5.001%204.142-3.357%207.5-7.5%207.5zm69.999-60.808h-30.643c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5h30.643c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5zm-60.318-75.808h60.318c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-60.318c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm-.232%2068.308c0%204.142-3.358%207.5-7.5%207.5h-124.18c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5h124.18c4.142%200%207.5%203.358%207.5%207.5zm-197.873-68.308h150.626c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-150.626c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm0%2060.808h18.617c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-18.617c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm0%2060.808h85.936c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-85.936c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm-.001%2060.808h23.026c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-23.026c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm0%2060.808h93.651c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-93.651c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm0%2060.807h159.801c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-159.801c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm29.536%2075.808h-29.536c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5h29.536c4.142%200%207.5%203.358%207.5%207.5s-3.359%207.5-7.5%207.5zm277.409-245.532c4.142%200%207.5%203.358%207.5%207.5v34.243c5.838%202.799%209.87%208.764%209.87%2015.671%200%209.593-7.776%2017.37-17.37%2017.37-2.026%200-3.971-.348-5.778-.986l-21.875%2021.875c-2.928%202.928-7.677%202.928-10.605%200s-2.928-7.677%200-10.605l21.875-21.875c-.637-1.808-.985-3.752-.985-5.778%200-6.907%204.031-12.872%209.87-15.671v-34.243c-.002-4.143%203.355-7.501%207.498-7.501zm80.36%20232.677v16.84c0%2029.476-21.561%2053.592-47.912%2053.592h-300.76c14.751-13.003%2023.668-32.932%2023.668-53.592v-16.84c0-11.128%209.077-20.204%2020.204-20.204h239.438%2045.156c11.13%200%2020.206%209.076%2020.206%2020.204z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3c/svg%3e",Eg="data:image/svg+xml,%3csvg%20id='Layer_1'%20enable-background='new%200%200%2034%2034'%20height='300'%20viewBox='0%200%2034%2034'%20width='300'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:svgjs='http://svgjs.dev/svgjs'%3e%3cg%20width='100%25'%20height='100%25'%20transform='matrix(1,0,0,1,0,0)'%3e%3cg%3e%3cpath%20d='m29.6%202h-3v3c0%20.6-.5%201-1%201s-1-.4-1-1v-3h-16v3c0%20.6-.5%201-1%201s-1-.4-1-1v-3h-3c-1.5%200-2.6%201.3-2.6%203v3.6h32v-3.6c0-1.7-1.8-3-3.4-3zm-28.6%208.7v18.3c0%201.8%201.1%203%202.7%203h26c1.6%200%203.4-1.3%203.4-3v-18.3zm8.9%2016.8h-2.4c-.4%200-.8-.3-.8-.8v-2.5c0-.4.3-.8.8-.8h2.5c.4%200%20.8.3.8.8v2.5c-.1.5-.4.8-.9.8zm0-9h-2.4c-.4%200-.8-.3-.8-.8v-2.5c0-.4.3-.8.8-.8h2.5c.4%200%20.8.3.8.8v2.5c-.1.5-.4.8-.9.8zm8%209h-2.5c-.4%200-.8-.3-.8-.8v-2.5c0-.4.3-.8.8-.8h2.5c.4%200%20.8.3.8.8v2.5c0%20.5-.3.8-.8.8zm0-9h-2.5c-.4%200-.8-.3-.8-.8v-2.5c0-.4.3-.8.8-.8h2.5c.4%200%20.8.3.8.8v2.5c0%20.5-.3.8-.8.8zm8%209h-2.5c-.4%200-.8-.3-.8-.8v-2.5c0-.4.3-.8.8-.8h2.5c.4%200%20.8.3.8.8v2.5c0%20.5-.3.8-.8.8zm0-9h-2.5c-.4%200-.8-.3-.8-.8v-2.5c0-.4.3-.8.8-.8h2.5c.4%200%20.8.3.8.8v2.5c0%20.5-.3.8-.8.8z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e",Ag=()=>b.jsx(b.Fragment,{children:b.jsx(dl,{children:b.jsxs(hg,{children:[b.jsxs(mg,{children:[b.jsx(xg,{children:"Gestão dos Profisionais"}),b.jsx(bg,{children:"Gerencie Agendas, Prontuários, Receitas digitais e Histórico."}),b.jsx(yg,{children:"Saiba Mais..."}),b.jsxs(pg,{children:[b.jsx(Se,{src:Eg,texto:"Agenda",to:"/agendas"}),b.jsx(Se,{src:tf,texto:"Receitas Digitais",to:"/receitas digitais"}),b.jsx(Se,{src:y1,texto:"Prontuários",to:"/prontuarios"}),b.jsx(Se,{src:Sg,texto:"Histórico",to:"/histórico"}),b.jsx(Se,{src:ef,texto:"Gerenciar Dados",to:"/GerenciarCadastroProfissional"})]})]}),b.jsx(vg,{children:b.jsx(gg,{src:af})})]})})}),Tg=V.div`
+`,bg="data:image/svg+xml,%3csvg%20id='Layer_1'%20enable-background='new%200%200%20512%20512'%20viewBox='0%200%20512%20512'%20xmlns='http://www.w3.org/2000/svg'%20width='300'%20height='300'%20version='1.1'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:svgjs='http://svgjs.dev/svgjs'%3e%3cg%20width='100%25'%20height='100%25'%20transform='matrix(1,0,0,1,0,0)'%3e%3cpath%20d='m279.785%20257.805c0%2056.682%2045.95%20102.632%20102.632%20102.632s102.632-45.95%20102.632-102.632-45.95-102.632-102.632-102.632-102.632%2045.95-102.632%20102.632zm177.364%200c0%2041.274-33.459%2074.733-74.733%2074.733-41.273%200-74.732-33.459-74.732-74.733s33.459-74.733%2074.732-74.733c41.274%200%2074.733%2033.459%2074.733%2074.733zm-334.375%20175.263c0-19.4%2015.803-35.204%2035.204-35.204h224.438v-22.428c-64.966%200-117.631-52.665-117.631-117.631s52.665-117.632%20117.631-117.632v-111.469c0-11.128-9.08-20.204-20.204-20.204h-315.056c-11.128%200-20.204%209.077-20.204%2020.204v421.204c0%2029.475%2021.56%2053.592%2047.912%2053.592%2027.584%200%2046.812-25.24%2047.864-51.313.216-6.322.046-12.782.046-19.119zm164.241-62.953h46.881c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-46.881c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm-15.617-53.307c0%204.142-3.358%207.5-7.5%207.5h-56.79c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5h56.79c4.142%200%207.5%203.358%207.5%207.5zm-140.851-53.308c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5h118.521c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5zm133.35-60.808h-50.855c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5h50.855c4.142%200%207.5%203.358%207.5%207.5.001%204.142-3.357%207.5-7.5%207.5zm69.999-60.808h-30.643c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5h30.643c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5zm-60.318-75.808h60.318c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-60.318c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm-.232%2068.308c0%204.142-3.358%207.5-7.5%207.5h-124.18c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5h124.18c4.142%200%207.5%203.358%207.5%207.5zm-197.873-68.308h150.626c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-150.626c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm0%2060.808h18.617c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-18.617c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm0%2060.808h85.936c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-85.936c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm-.001%2060.808h23.026c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-23.026c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm0%2060.808h93.651c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-93.651c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm0%2060.807h159.801c4.142%200%207.5%203.358%207.5%207.5s-3.358%207.5-7.5%207.5h-159.801c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5zm29.536%2075.808h-29.536c-4.142%200-7.5-3.358-7.5-7.5s3.358-7.5%207.5-7.5h29.536c4.142%200%207.5%203.358%207.5%207.5s-3.359%207.5-7.5%207.5zm277.409-245.532c4.142%200%207.5%203.358%207.5%207.5v34.243c5.838%202.799%209.87%208.764%209.87%2015.671%200%209.593-7.776%2017.37-17.37%2017.37-2.026%200-3.971-.348-5.778-.986l-21.875%2021.875c-2.928%202.928-7.677%202.928-10.605%200s-2.928-7.677%200-10.605l21.875-21.875c-.637-1.808-.985-3.752-.985-5.778%200-6.907%204.031-12.872%209.87-15.671v-34.243c-.002-4.143%203.355-7.501%207.498-7.501zm80.36%20232.677v16.84c0%2029.476-21.561%2053.592-47.912%2053.592h-300.76c14.751-13.003%2023.668-32.932%2023.668-53.592v-16.84c0-11.128%209.077-20.204%2020.204-20.204h239.438%2045.156c11.13%200%2020.206%209.076%2020.206%2020.204z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3c/svg%3e",Sg="data:image/svg+xml,%3csvg%20id='Layer_1'%20enable-background='new%200%200%2034%2034'%20height='300'%20viewBox='0%200%2034%2034'%20width='300'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:svgjs='http://svgjs.dev/svgjs'%3e%3cg%20width='100%25'%20height='100%25'%20transform='matrix(1,0,0,1,0,0)'%3e%3cg%3e%3cpath%20d='m29.6%202h-3v3c0%20.6-.5%201-1%201s-1-.4-1-1v-3h-16v3c0%20.6-.5%201-1%201s-1-.4-1-1v-3h-3c-1.5%200-2.6%201.3-2.6%203v3.6h32v-3.6c0-1.7-1.8-3-3.4-3zm-28.6%208.7v18.3c0%201.8%201.1%203%202.7%203h26c1.6%200%203.4-1.3%203.4-3v-18.3zm8.9%2016.8h-2.4c-.4%200-.8-.3-.8-.8v-2.5c0-.4.3-.8.8-.8h2.5c.4%200%20.8.3.8.8v2.5c-.1.5-.4.8-.9.8zm0-9h-2.4c-.4%200-.8-.3-.8-.8v-2.5c0-.4.3-.8.8-.8h2.5c.4%200%20.8.3.8.8v2.5c-.1.5-.4.8-.9.8zm8%209h-2.5c-.4%200-.8-.3-.8-.8v-2.5c0-.4.3-.8.8-.8h2.5c.4%200%20.8.3.8.8v2.5c0%20.5-.3.8-.8.8zm0-9h-2.5c-.4%200-.8-.3-.8-.8v-2.5c0-.4.3-.8.8-.8h2.5c.4%200%20.8.3.8.8v2.5c0%20.5-.3.8-.8.8zm8%209h-2.5c-.4%200-.8-.3-.8-.8v-2.5c0-.4.3-.8.8-.8h2.5c.4%200%20.8.3.8.8v2.5c0%20.5-.3.8-.8.8zm0-9h-2.5c-.4%200-.8-.3-.8-.8v-2.5c0-.4.3-.8.8-.8h2.5c.4%200%20.8.3.8.8v2.5c0%20.5-.3.8-.8.8z'%20fill='%23219d9c'%20fill-opacity='1'%20data-original-color='%23000000ff'%20stroke='none'%20stroke-opacity='1'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e",Eg=()=>b.jsx(b.Fragment,{children:b.jsx(dl,{children:b.jsxs(dg,{children:[b.jsxs(hg,{children:[b.jsx(yg,{children:"Gestão dos Profisionais"}),b.jsx(xg,{children:"Gerencie Agendas, Prontuários, Receitas digitais e Histórico."}),b.jsx(gg,{children:"Saiba Mais..."}),b.jsxs(mg,{children:[b.jsx(Se,{src:Sg,texto:"Agenda",to:"/agendas"}),b.jsx(Se,{src:tf,texto:"Receitas Digitais",to:"/receitas digitais"}),b.jsx(Se,{src:y1,texto:"Prontuários",to:"/prontuarios"}),b.jsx(Se,{src:bg,texto:"Histórico",to:"/histórico"}),b.jsx(Se,{src:ef,texto:"Gerenciar Dados",to:"/GerenciarCadastroProfissional"})]})]}),b.jsx(pg,{children:b.jsx(vg,{src:af})})]})})}),Ag=V.div`
     display: grid;
     grid-template-columns: repeat(1,1fr);
-`,wg=V.label`
+`,Tg=V.label`
     color: black;
     font-size: 20px;
     font-weight: bold;
-`,zg=V.select`
+`,wg=V.select`
     background-color: white;
     border:rgb(197, 197, 197) 1px solid;
     border-radius: 5px;
@@ -636,7 +636,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     outline: none;
     border: 3px solid #219D9C; /* muda a borda ao focar */
   }
-`,oe=({texto:u,opcoes:c,id:f})=>b.jsx(b.Fragment,{children:b.jsxs(Tg,{children:[b.jsx(wg,{children:u}),b.jsx(zg,{id:f,children:c.map((r,s)=>b.jsx("option",{value:r,children:r},s))})]})}),b1=V.input`
+`,oe=({texto:u,opcoes:c,id:f})=>b.jsx(b.Fragment,{children:b.jsxs(Ag,{children:[b.jsx(Tg,{children:u}),b.jsx(wg,{id:f,children:c.map((r,s)=>b.jsx("option",{value:r,children:r},s))})]})}),b1=V.input`
   border: solid 1px black;
   background-color: white;
   border-radius: 4px;
@@ -645,7 +645,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
   &::-webkit-calendar-picker-indicator {
    filter: brightness(0%);
   }
-`,Dg=({type:u,placeholder:c,value:f,id:r,name:s,className:h})=>b.jsx(b.Fragment,{children:b.jsx(b1,{type:u,placeholder:c,value:f,id:r,name:s,className:h})}),Rg=V.div`
+`,zg=({type:u,placeholder:c,value:f,id:r,name:s,className:h})=>b.jsx(b.Fragment,{children:b.jsx(b1,{type:u,placeholder:c,value:f,id:r,name:s,className:h})}),Dg=V.div`
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
@@ -658,7 +658,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     border-radius: 8px;      /* só visual */
     margin-top: 2%;
   
-`,Mg=V.h1`
+`,Rg=V.h1`
     color: #219D9C;
     text-align: left;
     padding-top: 15px;
@@ -668,7 +668,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     color: black;
     font-weight: bold;
     padding: 5px;
-`,D2=V(Dg)`
+`,D2=V(zg)`
   width: 20px;
   height: 20px;
   margin: auto;
@@ -677,20 +677,20 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     outline: none;
     border: 3px solid #219D9C; /* muda a borda ao focar */
   }
-`,Og=V.div`
+`,Mg=V.div`
     display: grid;
     grid-template-columns: repeat(3,1fr);
 
-`,_g=V.div`
+`,Og=V.div`
     display: grid;
     grid-template-columns: repeat(2,1fr);
 
-`,Cg=V.h3`
+`,_g=V.h3`
     color: black;
     font-size: 18px;    
     padding: 10px;
     grid-area: 1 / span 2
-`,jg=V.textarea`
+`,Cg=V.textarea`
   width: 100%;
   height: 100px;
   font-size: 18px;
@@ -705,7 +705,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     outline: none;
     border: 3px solid #219D9C; /* muda a borda ao focar */
   }
-`,Ug=()=>{const[u,c]=U.useState(!1),f=["Hailton Mario Ferreira","Jorge Benjor","Jorge Mário"],r=["Psicoterapia","Clinico Geral","Ortopedia"],s=["Dr. Manoel Gomes Filho","Dra. Ana Beatriz Souza","Dr. Carlos Henrique Lima"],h=["10/12/2025","20/05/2025","15/01/2025"],y=["14:00","10:00","07:00"];return b.jsx(b.Fragment,{children:b.jsx(dl,{children:b.jsxs(Rg,{children:[b.jsx(Mg,{children:"Marcar Consulta"}),b.jsx(oe,{texto:"Paciente",opcoes:f}),b.jsx(oe,{texto:"Especialidade",opcoes:r}),b.jsx(oe,{texto:"Profissional",opcoes:s}),b.jsxs(Og,{children:[b.jsx(oe,{texto:"Dia",opcoes:h}),b.jsx(oe,{texto:"Hora",opcoes:y}),b.jsxs(_g,{children:[b.jsx(Cg,{children:"Tipo de consulta:"}),b.jsx(D2,{type:"radio",id:"telemedicina",name:"TipoCons"}),b.jsx(M0,{htmlFor:"telemedicina",children:"Telemedicina"}),b.jsx(D2,{type:"radio",id:"Presencial",name:"TipoCons"}),b.jsx(M0,{htmlFor:"Presencial",children:"Presencial"})]})]}),b.jsx(M0,{htmlFor:"MotivoCons",children:"Motivo da Consulta:"}),b.jsx(jg,{id:"MotivoCons"}),b.jsx(fn,{onMouseDown:()=>c(!0),onMouseUp:()=>c(!1),style:{width:"100%",backgroundColor:u?"#197c7c":"#219D9C"},children:"Salvar"})]})})})},Hg=V.div`
+`,jg=()=>{const[u,c]=U.useState(!1),f=["Hailton Mario Ferreira","Jorge Benjor","Jorge Mário"],r=["Psicoterapia","Clinico Geral","Ortopedia"],s=["Dr. Manoel Gomes Filho","Dra. Ana Beatriz Souza","Dr. Carlos Henrique Lima"],h=["10/12/2025","20/05/2025","15/01/2025"],y=["14:00","10:00","07:00"];return b.jsx(b.Fragment,{children:b.jsx(dl,{children:b.jsxs(Dg,{children:[b.jsx(Rg,{children:"Marcar Consulta"}),b.jsx(oe,{texto:"Paciente",opcoes:f}),b.jsx(oe,{texto:"Especialidade",opcoes:r}),b.jsx(oe,{texto:"Profissional",opcoes:s}),b.jsxs(Mg,{children:[b.jsx(oe,{texto:"Dia",opcoes:h}),b.jsx(oe,{texto:"Hora",opcoes:y}),b.jsxs(Og,{children:[b.jsx(_g,{children:"Tipo de consulta:"}),b.jsx(D2,{type:"radio",id:"telemedicina",name:"TipoCons"}),b.jsx(M0,{htmlFor:"telemedicina",children:"Telemedicina"}),b.jsx(D2,{type:"radio",id:"Presencial",name:"TipoCons"}),b.jsx(M0,{htmlFor:"Presencial",children:"Presencial"})]})]}),b.jsx(M0,{htmlFor:"MotivoCons",children:"Motivo da Consulta:"}),b.jsx(Cg,{id:"MotivoCons"}),b.jsx(fn,{onMouseDown:()=>c(!0),onMouseUp:()=>c(!1),style:{width:"100%",backgroundColor:u?"#197c7c":"#219D9C"},children:"Salvar"})]})})})},Ug=V.div`
     display: grid;
     grid-template-columns: repeat(1,1fr);
     width: 90vw;
@@ -733,12 +733,12 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         margin:0;
         border: solid 1px black;
     }
-`,Ng=V.div`
+`,Hg=V.div`
     display: grid;
     grid-template-columns: 10% 10%;
     gap: 10px;
     padding: 20px 0px 20px 0px;
-`,Bg=V.div`
+`,Ng=V.div`
     width: 100%;
 
     #TableMarcadas{
@@ -764,9 +764,9 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
             border-bottom: solid 1px black;
         }
     }
-`,qg=V.table`
+`,Bg=V.table`
         width: auto;
-    `,S1=({colunas:u,dados:c,id:f})=>b.jsxs(qg,{id:f,children:[b.jsx("thead",{children:b.jsx("tr",{children:u.map(r=>b.jsx("th",{children:r},r))})}),b.jsx("tbody",{children:c.map((r,s)=>b.jsx("tr",{children:u.map(h=>b.jsx("td",{children:r[h]},h))},s))})]}),Yg=()=>{const u=["Todas","Marcada","Concluída","Cancelada"],c=["Data","Horário","Especialidade","Médico","Tipo","Status"],f=["Último mês","Últimos 3 meses","Últimos 6 meses","Últimos 12 meses","Todos"],r=[{Data:"01/05/2025",Horário:"14:00",Especialidade:"Cardiologia",Médico:"Dr. Fulano",Tipo:"Consulta",Status:"Cancelada"},{Data:"02/05/2025",Horário:"14:00",Especialidade:"Cardiologia",Médico:"Dr. Fulano",Tipo:"Consulta",Status:"Concluída"},{Data:"15/05/2025",Horário:"15:30",Especialidade:"Dermatologia",Médico:"Dra. Beltrana",Tipo:"Retorno",Status:"Concluída"},{Data:"28/05/2025",Horário:"14:00",Especialidade:"Cardiologia",Médico:"Dr. Fulano",Tipo:"Consulta",Status:"Concluída"},{Data:"18/07/2025",Horário:"15:30",Especialidade:"Dermatologia",Médico:"Dra. Beltrana",Tipo:"Retorno",Status:"Cancelada"},{Data:"10/08/2025",Horário:"15:30",Especialidade:"Dermatologia",Médico:"Dra. Beltrana",Tipo:"Retorno",Status:"Concluída"}];return b.jsx(b.Fragment,{children:b.jsx(dl,{children:b.jsxs(Hg,{children:[b.jsx("h1",{children:"Consultas marcadas"}),b.jsxs(Ng,{children:[b.jsx(oe,{opcoes:f,id:"SelectIntervalos"}),b.jsx(oe,{opcoes:u,id:"Select"})]}),b.jsx(Bg,{children:b.jsx(S1,{colunas:c,dados:r,id:"TableMarcadas"})})]})})})},Gg=encodeURIComponent(`
+    `,S1=({colunas:u,dados:c,id:f})=>b.jsxs(Bg,{id:f,children:[b.jsx("thead",{children:b.jsx("tr",{children:u.map(r=>b.jsx("th",{children:r},r))})}),b.jsx("tbody",{children:c.map((r,s)=>b.jsx("tr",{children:u.map(h=>b.jsx("td",{children:r[h]},h))},s))})]}),qg=()=>{const u=["Todas","Marcada","Concluída","Cancelada"],c=["Data","Horário","Especialidade","Médico","Tipo","Status"],f=["Último mês","Últimos 3 meses","Últimos 6 meses","Últimos 12 meses","Todos"],r=[{Data:"01/05/2025",Horário:"14:00",Especialidade:"Cardiologia",Médico:"Dr. Fulano",Tipo:"Consulta",Status:"Cancelada"},{Data:"02/05/2025",Horário:"14:00",Especialidade:"Cardiologia",Médico:"Dr. Fulano",Tipo:"Consulta",Status:"Concluída"},{Data:"15/05/2025",Horário:"15:30",Especialidade:"Dermatologia",Médico:"Dra. Beltrana",Tipo:"Retorno",Status:"Concluída"},{Data:"28/05/2025",Horário:"14:00",Especialidade:"Cardiologia",Médico:"Dr. Fulano",Tipo:"Consulta",Status:"Concluída"},{Data:"18/07/2025",Horário:"15:30",Especialidade:"Dermatologia",Médico:"Dra. Beltrana",Tipo:"Retorno",Status:"Cancelada"},{Data:"10/08/2025",Horário:"15:30",Especialidade:"Dermatologia",Médico:"Dra. Beltrana",Tipo:"Retorno",Status:"Concluída"}];return b.jsx(b.Fragment,{children:b.jsx(dl,{children:b.jsxs(Ug,{children:[b.jsx("h1",{children:"Consultas marcadas"}),b.jsxs(Hg,{children:[b.jsx(oe,{opcoes:f,id:"SelectIntervalos"}),b.jsx(oe,{opcoes:u,id:"Select"})]}),b.jsx(Ng,{children:b.jsx(S1,{colunas:c,dados:r,id:"TableMarcadas"})})]})})})},Yg=encodeURIComponent(`
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="%236B7280">
     <path d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 
              2v10a2 2 0 002 2h12a2 2 0 
@@ -774,13 +774,13 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
              1 0 10-2 0v1H7V3a1 1 0 
              00-1-1zM4 8h12v8H4V8z"/>
   </svg>
-`),Lg=encodeURIComponent(`
+`),Gg=encodeURIComponent(`
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 
   1 0 512 0A256 256 0 1 0 0 256zM232 120l0 136c0 8 4 15.5 10.7 20l96 64c11 7.4 
   25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2 280 120c0-13.3-10.7-24-24-24s-24
    10.7-24 24z"/></svg>
-`),Xg=V.div`
+`),Lg=V.div`
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
@@ -809,12 +809,12 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
       font-size: 16px;
   }
   }
-`,Qg=V.h1`
+`,Xg=V.h1`
     color: #219D9C;
     text-align: left;
     padding-top: 15px;
     font-size: 30px;
-`,Zg=V.div`
+`,Qg=V.div`
   display: grid;
   grid-template-columns: repeat(2,1fr);
 
@@ -831,7 +831,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     background-color: #ffffff;
 
     /* só aqui adicionamos o ícone de calendário */
-    background-image: url("data:image/svg+xml,${Gg}");
+    background-image: url("data:image/svg+xml,${Yg}");
     background-repeat: no-repeat;
     background-position: right 0.75rem center;
     background-size: 1em 1em;
@@ -853,7 +853,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     background-color: #ffffff;
 
     /* só aqui adicionamos o ícone de calendário */
-    background-image: url("data:image/svg+xml,${Lg}");
+    background-image: url("data:image/svg+xml,${Gg}");
     background-repeat: no-repeat;
     background-position: right 0.75rem center;
     background-size: 1em 1em;
@@ -861,7 +861,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     border: 1px solid #d1d5db;
     border-radius: 0.375rem;
   }
-`,Vg=()=>{const[u,c]=U.useState(!1),f=["Hailton Mario Ferreira","Jorge Benjor","Jorge Mário"],r=["Hemograma","Exames de urina","Colesterol","Ureia","Creatinina","Radiografias","Eletrocardiograma","Papanicolau"],s=["Lavoisier","Cartão de todos","Dr.Consulta"],h=["20/05/2025","01/06/2025","25/06/2025"],y=["14:00","10:00","07:00"];return b.jsx(b.Fragment,{children:b.jsx(dl,{children:b.jsxs(Xg,{children:[b.jsx(Qg,{children:"Agendar Exames"}),b.jsx(oe,{texto:"Paciente",opcoes:f}),b.jsx(oe,{texto:"Exames",opcoes:r}),b.jsx(oe,{texto:"Unidade",opcoes:s}),b.jsxs(Zg,{children:[b.jsx(oe,{id:"SelectDataExames",opcoes:h}),b.jsx(oe,{id:"SelectHoraExames",opcoes:y})]}),b.jsx("h3",{children:"Anexe o pedido de exame abaixo:"}),b.jsx(b1,{type:"file",id:"ArquivoConsulta"}),b.jsx(fn,{onMouseDown:()=>c(!0),onMouseUp:()=>c(!1),style:{width:"100%",backgroundColor:u?"#197c7c":"#219D9C"},children:"Salvar"})]})})})},kg=V.div`
+`,Zg=()=>{const[u,c]=U.useState(!1),f=["Hailton Mario Ferreira","Jorge Benjor","Jorge Mário"],r=["Hemograma","Exames de urina","Colesterol","Ureia","Creatinina","Radiografias","Eletrocardiograma","Papanicolau"],s=["Lavoisier","Cartão de todos","Dr.Consulta"],h=["20/05/2025","01/06/2025","25/06/2025"],y=["14:00","10:00","07:00"];return b.jsx(b.Fragment,{children:b.jsx(dl,{children:b.jsxs(Lg,{children:[b.jsx(Xg,{children:"Agendar Exames"}),b.jsx(oe,{texto:"Paciente",opcoes:f}),b.jsx(oe,{texto:"Exames",opcoes:r}),b.jsx(oe,{texto:"Unidade",opcoes:s}),b.jsxs(Qg,{children:[b.jsx(oe,{id:"SelectDataExames",opcoes:h}),b.jsx(oe,{id:"SelectHoraExames",opcoes:y})]}),b.jsx("h3",{children:"Anexe o pedido de exame abaixo:"}),b.jsx(b1,{type:"file",id:"ArquivoConsulta"}),b.jsx(fn,{onMouseDown:()=>c(!0),onMouseUp:()=>c(!1),style:{width:"100%",backgroundColor:u?"#197c7c":"#219D9C"},children:"Salvar"})]})})})},Vg=V.div`
     display: grid;
     grid-template-columns: repeat(1,1fr);
     width: 90vw;
@@ -890,12 +890,12 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
         margin:0;
         border: solid 1px black;
     }
-`,Kg=V.div`
+`,kg=V.div`
     display: grid;
     grid-template-columns: 10% 10%;
     gap: 10px;
     padding: 20px 0px 20px 0px;
-`,Jg=V.div`
+`,Kg=V.div`
     width: 100%;
 
     #TableMarcadas{
@@ -925,4 +925,4 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     width: 30px;
     margin: auto;
     cursor: pointer;
-`,Ze="data:image/svg+xml,%3csvg%20id='Artboard_30'%20height='512'%20viewBox='0%200%2064%2064'%20width='512'%20xmlns='http://www.w3.org/2000/svg'%20data-name='Artboard%2030'%3e%3cpath%20d='m47%2014h2v2h-2z'/%3e%3cpath%20d='m39%2014h2v2h-2z'/%3e%3cpath%20d='m21%208h4v-4a1%201%200%200%200%20-1-1h-3.184a2.966%202.966%200%200%201%20.184%201z'/%3e%3cpath%20d='m60%2010h-40a1%201%200%200%201%20-1-1v-5a1%201%200%200%200%20-1-1h-14a1%201%200%200%200%20-1%201v46a1%201%200%200%200%201%201h15.586l-2.672-2.672a3.121%203.121%200%200%201%202.207-5.328h2.879v-20a3%203%200%200%201%203-3h14a3%203%200%200%201%203%203v20h2.879a3.121%203.121%200%200%201%202.207%205.328l-2.672%202.672h15.586a1%201%200%200%200%201-1v-39a1%201%200%200%200%20-1-1zm-17%207a1%201%200%200%201%20-1%201h-4a1%201%200%200%201%20-1-1v-4a1%201%200%200%201%201-1h4a1%201%200%200%201%201%201zm8%200a1%201%200%200%201%20-1%201h-4a1%201%200%200%201%20-1-1v-4a1%201%200%200%201%201-1h4a1%201%200%200%201%201%201zm8%200a1%201%200%200%201%20-1%201h-4a1%201%200%200%201%20-1-1v-4a1%201%200%200%201%201-1h4a1%201%200%200%201%201%201z'/%3e%3cpath%20d='m55%2014h2v2h-2z'/%3e%3cpath%20d='m39%2022h-14a1%201%200%200%200%20-1%201v21a1%201%200%200%201%20-1%201h-3.879a1.121%201.121%200%200%200%20-.793%201.914l13.672%2013.672%2013.672-13.672a1.121%201.121%200%200%200%20-.793-1.914h-3.879a1%201%200%200%201%20-1-1v-21a1%201%200%200%200%20-1-1z'/%3e%3cpath%20d='m27%208h4v-4a1%201%200%200%200%20-1-1h-3.184a2.966%202.966%200%200%201%20.184%201z'/%3e%3c/svg%3e",$g=()=>{const u=["Marcado","Realizado","Cancelado"],c=["Data","Horário","Exame","Unidade","Status","Resultado"],f=["Último mês","Últimos 3 meses","Últimos 6 meses","Últimos 12 meses","Todos"],r=[{Data:"01/05/2025",Horário:"14:00",Exame:"Hemograma",Unidade:"Lavoisier Taboão da Serra",Status:"Realizado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"02/05/2025",Horário:"15:30",Exame:"Ultrassom",Unidade:"Cartão de todos Embu das artes",Status:"Cancelado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"01/05/2025",Horário:"14:00",Exame:"Hemograma",Unidade:"Lavoisier Taboão da Serra",Status:"Realizado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"02/05/2025",Horário:"15:30",Exame:"Ultrassom",Unidade:"Cartão de todos Embu das artes",Status:"Cancelado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"01/05/2025",Horário:"14:00",Exame:"Hemograma",Unidade:"Lavoisier Taboão da Serra",Status:"Realizado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"02/05/2025",Horário:"15:30",Exame:"Ultrassom",Unidade:"Cartão de todos Embu das artes",Status:"Cancelado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"01/05/2025",Horário:"14:00",Exame:"Hemograma",Unidade:"Lavoisier Taboão da Serra",Status:"Realizado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"02/05/2025",Horário:"15:30",Exame:"Ultrassom",Unidade:"Cartão de todos Embu das artes",Status:"Cancelado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"01/05/2025",Horário:"14:00",Exame:"Hemograma",Unidade:"Lavoisier Taboão da Serra",Status:"Realizado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"02/05/2025",Horário:"15:30",Exame:"Ultrassom",Unidade:"Cartão de todos Embu das artes",Status:"Cancelado",Resultado:b.jsx(Qe,{src:Ze})}];return b.jsx(b.Fragment,{children:b.jsx(dl,{children:b.jsxs(kg,{children:[b.jsx("h1",{children:"Histórico de Exames"}),b.jsxs(Kg,{children:[b.jsx(oe,{opcoes:f,id:"SelectIntervalos"}),b.jsx(oe,{opcoes:u,id:"Select"})]}),b.jsx(Jg,{children:b.jsx(S1,{colunas:c,dados:r,id:"TableMarcadas"})})]})})})};function Wg(){return b.jsxs(b.Fragment,{children:[b.jsx(Hv,{}),b.jsx(p3,{basename:"/ProjetoVidaPlus",children:b.jsxs(Vp,{children:[b.jsx(Ve,{index:!0,element:b.jsx(Uv,{})})," ",b.jsx(Ve,{path:"/paciente",element:b.jsx(lg,{})}),b.jsx(Ve,{path:"/profissional",element:b.jsx(Ag,{})}),b.jsx(Ve,{path:"/Adm",element:b.jsx(dg,{})}),b.jsx(Ve,{path:"/consultas",element:b.jsx(Ug,{})}),b.jsx(Ve,{path:"/ConsultasMarcadas",element:b.jsx(Yg,{})}),b.jsx(Ve,{path:"/Exames",element:b.jsx(Vg,{})}),b.jsx(Ve,{path:"/ExamesMarcados",element:b.jsx($g,{})}),b.jsx(Ve,{path:"*",element:b.jsx("div",{children:"Não encontrado"})})]})})]})}tp.createRoot(document.getElementById("root")).render(b.jsx(U.StrictMode,{children:b.jsx(Wg,{})}));
+`,Ze="data:image/svg+xml,%3csvg%20id='Artboard_30'%20height='512'%20viewBox='0%200%2064%2064'%20width='512'%20xmlns='http://www.w3.org/2000/svg'%20data-name='Artboard%2030'%3e%3cpath%20d='m47%2014h2v2h-2z'/%3e%3cpath%20d='m39%2014h2v2h-2z'/%3e%3cpath%20d='m21%208h4v-4a1%201%200%200%200%20-1-1h-3.184a2.966%202.966%200%200%201%20.184%201z'/%3e%3cpath%20d='m60%2010h-40a1%201%200%200%201%20-1-1v-5a1%201%200%200%200%20-1-1h-14a1%201%200%200%200%20-1%201v46a1%201%200%200%200%201%201h15.586l-2.672-2.672a3.121%203.121%200%200%201%202.207-5.328h2.879v-20a3%203%200%200%201%203-3h14a3%203%200%200%201%203%203v20h2.879a3.121%203.121%200%200%201%202.207%205.328l-2.672%202.672h15.586a1%201%200%200%200%201-1v-39a1%201%200%200%200%20-1-1zm-17%207a1%201%200%200%201%20-1%201h-4a1%201%200%200%201%20-1-1v-4a1%201%200%200%201%201-1h4a1%201%200%200%201%201%201zm8%200a1%201%200%200%201%20-1%201h-4a1%201%200%200%201%20-1-1v-4a1%201%200%200%201%201-1h4a1%201%200%200%201%201%201zm8%200a1%201%200%200%201%20-1%201h-4a1%201%200%200%201%20-1-1v-4a1%201%200%200%201%201-1h4a1%201%200%200%201%201%201z'/%3e%3cpath%20d='m55%2014h2v2h-2z'/%3e%3cpath%20d='m39%2022h-14a1%201%200%200%200%20-1%201v21a1%201%200%200%201%20-1%201h-3.879a1.121%201.121%200%200%200%20-.793%201.914l13.672%2013.672%2013.672-13.672a1.121%201.121%200%200%200%20-.793-1.914h-3.879a1%201%200%200%201%20-1-1v-21a1%201%200%200%200%20-1-1z'/%3e%3cpath%20d='m27%208h4v-4a1%201%200%200%200%20-1-1h-3.184a2.966%202.966%200%200%201%20.184%201z'/%3e%3c/svg%3e",Jg=()=>{const u=["Marcado","Realizado","Cancelado"],c=["Data","Horário","Exame","Unidade","Status","Resultado"],f=["Último mês","Últimos 3 meses","Últimos 6 meses","Últimos 12 meses","Todos"],r=[{Data:"01/05/2025",Horário:"14:00",Exame:"Hemograma",Unidade:"Lavoisier Taboão da Serra",Status:"Realizado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"02/05/2025",Horário:"15:30",Exame:"Ultrassom",Unidade:"Cartão de todos Embu das artes",Status:"Cancelado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"01/05/2025",Horário:"14:00",Exame:"Hemograma",Unidade:"Lavoisier Taboão da Serra",Status:"Realizado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"02/05/2025",Horário:"15:30",Exame:"Ultrassom",Unidade:"Cartão de todos Embu das artes",Status:"Cancelado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"01/05/2025",Horário:"14:00",Exame:"Hemograma",Unidade:"Lavoisier Taboão da Serra",Status:"Realizado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"02/05/2025",Horário:"15:30",Exame:"Ultrassom",Unidade:"Cartão de todos Embu das artes",Status:"Cancelado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"01/05/2025",Horário:"14:00",Exame:"Hemograma",Unidade:"Lavoisier Taboão da Serra",Status:"Realizado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"02/05/2025",Horário:"15:30",Exame:"Ultrassom",Unidade:"Cartão de todos Embu das artes",Status:"Cancelado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"01/05/2025",Horário:"14:00",Exame:"Hemograma",Unidade:"Lavoisier Taboão da Serra",Status:"Realizado",Resultado:b.jsx(Qe,{src:Ze})},{Data:"02/05/2025",Horário:"15:30",Exame:"Ultrassom",Unidade:"Cartão de todos Embu das artes",Status:"Cancelado",Resultado:b.jsx(Qe,{src:Ze})}];return b.jsx(b.Fragment,{children:b.jsx(dl,{children:b.jsxs(Vg,{children:[b.jsx("h1",{children:"Histórico de Exames"}),b.jsxs(kg,{children:[b.jsx(oe,{opcoes:f,id:"SelectIntervalos"}),b.jsx(oe,{opcoes:u,id:"Select"})]}),b.jsx(Kg,{children:b.jsx(S1,{colunas:c,dados:r,id:"TableMarcadas"})})]})})})};function $g(){return b.jsxs(b.Fragment,{children:[b.jsx(Uv,{}),b.jsx(p3,{basename:"/ProjetoVidaPlus",children:b.jsxs(Vp,{children:[b.jsx(Ve,{index:!0,element:b.jsx(jv,{})})," ",b.jsx(Ve,{path:"/paciente",element:b.jsx(ag,{})}),b.jsx(Ve,{path:"/profissional",element:b.jsx(Eg,{})}),b.jsx(Ve,{path:"/Adm",element:b.jsx(sg,{})}),b.jsx(Ve,{path:"/consultas",element:b.jsx(jg,{})}),b.jsx(Ve,{path:"/ConsultasMarcadas",element:b.jsx(qg,{})}),b.jsx(Ve,{path:"/Exames",element:b.jsx(Zg,{})}),b.jsx(Ve,{path:"/ExamesMarcados",element:b.jsx(Jg,{})}),b.jsx(Ve,{path:"*",element:b.jsx("div",{children:"Não encontrado"})})]})})]})}tp.createRoot(document.getElementById("root")).render(b.jsx(U.StrictMode,{children:b.jsx($g,{})}));
