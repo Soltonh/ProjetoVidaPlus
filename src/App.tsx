@@ -14,7 +14,7 @@ function App() {
   return (
    <>
       <GlobalStyle />
-      <BrowserRouter basename={"/ProjetoVidaPlus"}>
+      <BrowserRouter basename="/ProjetoVidaPlus">
         <Routes>
           <Route index element={<CadastroUser />} /> {/* <- em vez de path="/" */}
           <Route path="/paciente" element={<TelaIncialPaciente />} />
