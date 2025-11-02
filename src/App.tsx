@@ -24,6 +24,7 @@ function App() {
           <Route path="/ConsultasMarcadas" element={<TelaConsultasMarcadas/>} />
           <Route path="/Exames" element={<TelaExamesPaciente/>} />
           <Route path="/ExamesMarcados" element={<TelaExamesMarcados/>} />
+          <Route path="*" element={<div>Não encontrado</div>} /> {/* catch-all */}
         </Routes>
       </BrowserRouter>
     </>
