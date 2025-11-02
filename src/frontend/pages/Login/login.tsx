@@ -11,7 +11,9 @@ const CadastroUser: React.FC = () => {
                     <Titulo>Acesso VidaPlus</Titulo>
                     <InputDiferente type="email" placeholder="Digite seu Email:"/>
                     <InputDiferente2 type="password" placeholder="Digite sua Senha:"/>
-                    <BotaoAcessar>Acessar</BotaoAcessar>
+                    <BotaoAcessar onClick={() => alert("Usuário ou senha incorretos!")}>
+                    Acessar
+                </BotaoAcessar>
                 </DivForm>
             </SecaoFundo>
     )
