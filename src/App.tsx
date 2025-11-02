@@ -12,19 +12,19 @@ import TelaExamesMarcados from './frontend/pages/Exames/Marcados/ExamesMarcados'
 
 function App() {
   return (
-    <>
+   <>
       <GlobalStyle />
-      <BrowserRouter basename="/ProjetoVidaPlus/">
+      <BrowserRouter basename={"/ProjetoVidaPlus/"}>
         <Routes>
-          <Route path="/" element={<CadastroUser/>} />
-          <Route path="/paciente" element={<TelaIncialPaciente/>} />
-          <Route path="/profissional" element={<TelaIncialProfissional/>} />
-          <Route path="/Adm" element={<TelaIncialAdm/>} />
-          <Route path="/consultas" element={<TelaConsultaPaciente/>} />
-          <Route path="/ConsultasMarcadas" element={<TelaConsultasMarcadas/>} />
-          <Route path="/Exames" element={<TelaExamesPaciente/>} />
-          <Route path="/ExamesMarcados" element={<TelaExamesMarcados/>} />
-          <Route path="*" element={<div>Não encontrado</div>} /> {/* catch-all */}
+          <Route index element={<CadastroUser />} /> {/* <- em vez de path="/" */}
+          <Route path="/paciente" element={<TelaIncialPaciente />} />
+          <Route path="/profissional" element={<TelaIncialProfissional />} />
+          <Route path="/Adm" element={<TelaIncialAdm />} />
+          <Route path="/consultas" element={<TelaConsultaPaciente />} />
+          <Route path="/ConsultasMarcadas" element={<TelaConsultasMarcadas />} />
+          <Route path="/Exames" element={<TelaExamesPaciente />} />
+          <Route path="/ExamesMarcados" element={<TelaExamesMarcados />} />
+          <Route path="*" element={<div>Não encontrado</div>} />
         </Routes>
       </BrowserRouter>
     </>
